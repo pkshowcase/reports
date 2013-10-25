@@ -2,7 +2,7 @@ reports
 =======
 
 <h3>Reports! application</h3>
-
+<h4>Author: Pavel Kulitski</h4>
 <h5>Requirements:</h5>
 <ul>
   <li>MySQL 5+ database available at <a>127.0.0.1:3306</a></li>
