@@ -102,3 +102,19 @@ Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validatio
 Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.Size.message}, min=1, payload=[Ljava.lang.Class;@b39ca2, max=2147483647, groups=[Ljava.lang.Class;@1f07a19}}.
 Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.NotNull, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.NotNull.message}, payload=[Ljava.lang.Class;@1c7ff43, groups=[Ljava.lang.Class;@147a765}}.
 Adding composing constraint: ConstraintDescriptorImpl{annotation=javax.validation.constraints.Size, payloads=[], hasComposingConstraints=true, isReportAsSingleInvalidConstraint=false, elementType=FIELD, definedOn=DEFINED_LOCALLY, groups=[interface javax.validation.groups.Default], attributes={message={javax.validation.constraints.Size.message}, min=1, payload=[Ljava.lang.Class;@1c5c3c4, max=2147483647, groups=[Ljava.lang.Class;@b78927}}.
+Logging Provider: org.jboss.logging.Log4jLoggerProvider
+HV000001: Hibernate Validator 4.3.0.Final
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+No META-INF/validation.xml found. Using annotation based configuration only.
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+No META-INF/validation.xml found. Using annotation based configuration only.
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+No META-INF/validation.xml found. Using annotation based configuration only.

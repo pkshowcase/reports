@@ -1164,3 +1164,699 @@ Removing from cache: CachedDir<<refCount=0;path=D:\projects\reports\reports-solr
 Removing from cache: CachedDir<<refCount=0;path=D:\projects\reports\reports-solr\solr\reports-core\data;done=false>>
 Connection manager is shutting down
 Connection manager shut down
+SolrDispatchFilter.init()
+No /solr/home in JNDI
+solr home defaulted to 'solr/' (could not find system property or JNDI)
+looking for solr config file: C:\test-reports\reports\reports-solr\solr\solr.xml
+New CoreContainer 23972155
+Loading CoreContainer using Solr Home: 'solr/'
+new SolrResourceLoader for directory: 'solr/'
+Adding 'file:/C:/test-reports/reports/reports-solr/solr/lib/mysql-connector-java-5.1.18.jar' to classloader
+Adding 'file:/C:/test-reports/reports/reports-solr/solr/lib/solr-dataimporthandler-4.3.1.jar' to classloader
+Adding 'file:/C:/test-reports/reports/reports-solr/solr/lib/solr-dataimporthandler-extras-4.3.1.jar' to classloader
+null missing optional solr/str[@name='adminHandler']
+null missing optional solr/int[@name='coreLoadThreads']
+null missing optional solr/str[@name='coreRootDirectory']
+null missing optional solr/solrcloud/int[@name='distribUpdateConnTimeout']
+null missing optional solr/solrcloud/int[@name='distribUpdateSoTimeout']
+null missing optional solr/solrcloud/str[@name='host']
+null missing optional solr/solrcloud/str[@name='hostContext']
+null missing optional solr/solrcloud/int[@name='hostPort']
+null missing optional solr/solrcloud/int[@name='leaderVoteWait']
+null missing optional solr/str[@name='managementPath']
+null missing optional solr/str[@name='sharedLib']
+null missing optional solr/str[@name='shareSchema']
+null missing optional solr/int[@name='transientCacheSize']
+null missing optional solr/solrcloud/int[@name='zkClientTimeout']
+null missing optional solr/solrcloud/int[@name='zkHost']
+null missing optional solr/logging/str[@name='class']
+null missing optional solr/logging/str[@name='enabled']
+null missing optional solr/logging/watcher/int[@name='size']
+null missing optional solr/logging/watcher/int[@name='threshold']
+null missing optional solr/@coreLoadThreads
+null missing optional solr/@sharedLib
+null missing optional solr/@zkHost
+null missing optional solr/logging/@class
+null missing optional solr/logging/@enabled
+null missing optional solr/logging/watcher/@size
+null missing optional solr/logging/watcher/@threshold
+null missing optional solr/cores/@adminHandler
+null missing optional solr/cores/@distribUpdateConnTimeout
+null missing optional solr/cores/@distribUpdateSoTimeout
+null solr/cores/@host=${host:}
+null solr/cores/@hostContext=${hostContext:}
+null solr/cores/@hostPort=${jetty.port:}
+null missing optional solr/cores/@leaderVoteWait
+null missing optional solr/cores/@managementPath
+null missing optional solr/cores/@shareSchema
+null missing optional solr/cores/@transientCacheSize
+null solr/cores/@zkClientTimeout=${zkClientTimeout:15000}
+null missing optional solr/shardHandlerFactory/@class
+null missing optional solr/shardHandlerFactory/@name
+null missing optional solr/shardHandlerFactory/int[@connTimeout]
+null missing optional solr/shardHandlerFactory/int[@socketTimeout]
+null solr/cores/@defaultCoreName=reports
+null solr/@persistent=true
+null solr/cores/@adminPath=/admin/cores
+null missing optional solr/str[@name='adminHandler']
+null missing optional solr/int[@name='coreLoadThreads']
+null missing optional solr/str[@name='coreRootDirectory']
+null missing optional solr/solrcloud/int[@name='distribUpdateConnTimeout']
+null missing optional solr/solrcloud/int[@name='distribUpdateSoTimeout']
+null missing optional solr/solrcloud/str[@name='host']
+null missing optional solr/solrcloud/str[@name='hostContext']
+null missing optional solr/solrcloud/int[@name='hostPort']
+null missing optional solr/solrcloud/int[@name='leaderVoteWait']
+null missing optional solr/str[@name='managementPath']
+null missing optional solr/str[@name='sharedLib']
+null missing optional solr/str[@name='shareSchema']
+null missing optional solr/int[@name='transientCacheSize']
+null missing optional solr/solrcloud/int[@name='zkClientTimeout']
+null missing optional solr/solrcloud/int[@name='zkHost']
+null missing optional solr/logging/str[@name='class']
+null missing optional solr/logging/str[@name='enabled']
+null missing optional solr/logging/watcher/int[@name='size']
+null missing optional solr/logging/watcher/int[@name='threshold']
+null missing optional solr/@coreLoadThreads
+null missing optional solr/@sharedLib
+null missing optional solr/@zkHost
+null missing optional solr/logging/@class
+null missing optional solr/logging/@enabled
+null missing optional solr/logging/watcher/@size
+null missing optional solr/logging/watcher/@threshold
+null missing optional solr/cores/@adminHandler
+null missing optional solr/cores/@distribUpdateConnTimeout
+null missing optional solr/cores/@distribUpdateSoTimeout
+null solr/cores/@host=${host:}
+null solr/cores/@hostContext=${hostContext:}
+null solr/cores/@hostPort=${jetty.port:}
+null missing optional solr/cores/@leaderVoteWait
+null missing optional solr/cores/@managementPath
+null missing optional solr/cores/@shareSchema
+null missing optional solr/cores/@transientCacheSize
+null solr/cores/@zkClientTimeout=${zkClientTimeout:15000}
+null missing optional solr/shardHandlerFactory/@class
+null missing optional solr/shardHandlerFactory/@name
+null missing optional solr/shardHandlerFactory/int[@connTimeout]
+null missing optional solr/shardHandlerFactory/int[@socketTimeout]
+null solr/cores/@defaultCoreName=reports
+null solr/@persistent=true
+null solr/cores/@adminPath=/admin/cores
+null missing optional solr/cores/shardHandlerFactory
+Setting socketTimeout to: 0
+Setting urlScheme to: http://
+Setting connTimeout to: 0
+Setting maxConnectionsPerHost to: 20
+Setting corePoolSize to: 0
+Setting maximumPoolSize to: 2147483647
+Setting maxThreadIdleTime to: 5
+Setting sizeOfQueue to: -1
+Setting fairnessPolicy to: false
+Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+Registering Log Listener
+Creating SolrCore 'reports' using instanceDir: solr\reports-core
+new SolrResourceLoader for directory: 'solr\reports-core\'
+Adding specified lib dirs to ClassLoader
+Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: C:\test-reports\reports\reports-solr\solr\reports-core\..\..\..\contrib\extraction\lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: C:\test-reports\reports\reports-solr\solr\reports-core\..\..\..\dist).
+Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: C:\test-reports\reports\reports-solr\solr\reports-core\..\..\..\contrib\clustering\lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: C:\test-reports\reports\reports-solr\solr\reports-core\..\..\..\dist).
+Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: C:\test-reports\reports\reports-solr\solr\reports-core\..\..\..\contrib\langid\lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: C:\test-reports\reports\reports-solr\solr\reports-core\..\..\..\dist).
+Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: C:\test-reports\reports\reports-solr\solr\reports-core\..\..\..\contrib\velocity\lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: C:\test-reports\reports\reports-solr\solr\reports-core\..\..\..\dist).
+Adding 'file:/C:/test-reports/reports/reports-solr/solr/lib/mysql-connector-java-5.1.18.jar' to classloader
+Adding 'file:/C:/test-reports/reports/reports-solr/solr/lib/solr-dataimporthandler-4.3.1.jar' to classloader
+Adding 'file:/C:/test-reports/reports/reports-solr/solr/lib/solr-dataimporthandler-extras-4.3.1.jar' to classloader
+Can't find (or read) directory to add to classloader: /non/existent/dir/yields/warning (resolved as: C:\test-reports\reports\reports-solr\solr\reports-core\non\existent\dir\yields\warning).
+solrconfig.xml luceneMatchVersion=LUCENE_43
+solrconfig.xml missing optional indexDefaults/text()
+solrconfig.xml missing optional mainIndex/text()
+solrconfig.xml indexConfig/text()=
+    
+solrconfig.xml missing optional indexConfig/mergeScheduler/text()
+solrconfig.xml missing optional indexConfig/mergePolicy/text()
+solrconfig.xml missing optional indexConfig/luceneAutoCommit
+solrconfig.xml missing optional indexConfig/useCompoundFile
+solrconfig.xml missing optional indexConfig/maxBufferedDocs
+solrconfig.xml missing optional indexConfig/maxMergeDocs
+solrconfig.xml missing optional indexConfig/maxIndexingThreads
+solrconfig.xml missing optional indexConfig/mergeFactor
+solrconfig.xml missing optional indexConfig/ramBufferSizeMB
+solrconfig.xml missing optional indexConfig/writeLockTimeout
+solrconfig.xml indexConfig/lockType=native
+solrconfig.xml missing optional indexConfig/termIndexInterval
+solrconfig.xml missing optional indexConfig/infoStream
+solrconfig.xml missing optional indexConfig/reopenReaders
+solrconfig.xml query/maxBooleanClauses=1024
+Using Lucene MatchVersion: LUCENE_43
+solrconfig.xml missing optional query/boolTofilterOptimizer
+solrconfig.xml missing optional query/HashDocSet
+solrconfig.xml missing optional query/useFilterForSortedQuery
+solrconfig.xml query/queryResultWindowSize=20
+solrconfig.xml query/queryResultMaxDocsCached=200
+solrconfig.xml query/enableLazyFieldLoading=true
+solrconfig.xml missing optional query/fieldValueCache
+solrconfig.xml missing optional indexConfig/unlockOnStartup
+solrconfig.xml query/useColdSearcher=false
+solrconfig.xml dataDir=
+solrconfig.xml missing optional //HashDocSet/@loadFactor
+solrconfig.xml missing optional //HashDocSet/@maxSize
+solrconfig.xml requestDispatcher/httpCaching/@never304=true
+solrconfig.xml missing optional requestDispatcher/httpCaching/@etagSeed
+solrconfig.xml missing optional requestDispatcher/httpCaching/@lastModFrom
+solrconfig.xml missing optional requestDispatcher/httpCaching/cacheControl
+solrconfig.xml missing optional jmx/@agentId
+solrconfig.xml missing optional jmx/@serviceUrl
+solrconfig.xml missing optional jmx/@rootName
+solrconfig.xml query/maxWarmingSearchers=2
+solrconfig.xml updateHandler/@class=solr.DirectUpdateHandler2
+solrconfig.xml missing optional updateHandler/autoCommit/maxDocs
+solrconfig.xml updateHandler/autoCommit/maxTime=15000
+solrconfig.xml updateHandler/autoCommit/openSearcher=false
+solrconfig.xml missing optional updateHandler/commitIntervalLowerBound
+solrconfig.xml missing optional updateHandler/autoSoftCommit/maxDocs
+solrconfig.xml missing optional updateHandler/autoSoftCommit/maxTime
+solrconfig.xml missing optional updateHandler/commitWithin/softCommit
+Loaded SolrConfig: solrconfig.xml
+Reading Solr Schema from schema.xml
+Schema name=todo
+schema /schema/@version=1.5
+created long: org.apache.solr.schema.TrieLongField
+created string: org.apache.solr.schema.StrField
+created text_general: org.apache.solr.schema.TextField
+created date: org.apache.solr.schema.DateField
+created : org.apache.lucene.analysis.standard.StandardTokenizerFactory
+created : org.apache.lucene.analysis.core.StopFilterFactory
+created : org.apache.lucene.analysis.synonym.SynonymFilterFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created : org.apache.lucene.analysis.standard.StandardTokenizerFactory
+created : org.apache.lucene.analysis.core.StopFilterFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created text_ws: org.apache.solr.schema.TextField
+created : org.apache.lucene.analysis.charfilter.MappingCharFilterFactory
+created : org.apache.lucene.analysis.core.WhitespaceTokenizerFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created text_ws2: org.apache.solr.schema.TextField
+created : org.apache.lucene.analysis.standard.StandardTokenizerFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created : org.apache.lucene.analysis.core.StopFilterFactory
+created : org.apache.lucene.analysis.miscellaneous.LengthFilterFactory
+created text_spell: org.apache.solr.schema.TextField
+field defined: id{type=long,properties=indexed,stored,omitNorms,omitTermFreqAndPositions,required, required=true}
+id is required in this schema
+field defined: performer{type=text_ws,properties=indexed,tokenized,stored}
+field defined: activity{type=text_ws,properties=indexed,tokenized,stored}
+field defined: startDate{type=date,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}
+field defined: endDate{type=date,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}
+field defined: text{type=text_general,properties=indexed,tokenized,multiValued}
+field defined: spell{type=text_spell,properties=indexed,tokenized,multiValued}
+field defined: _version_{type=long,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}
+default search field in schema is performer
+using default query parser operator (OR)
+unique key field: id
+copyField source='performer' dest='text' maxChars=0
+copyField source='activity' dest='text' maxChars=0
+copyField source='text' dest='spell' maxChars=0
+solr.NRTCachingDirectoryFactory
+[reports] Opening new SolrCore at solr\reports-core\, dataDir=C:\test-reports\reports\reports-solr\solr\reports-core\data\
+JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@11d1aa6
+[reports] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+[reports] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+solr.NRTCachingDirectoryFactory
+return new directory for C:\test-reports\reports\reports-solr\solr\reports-core\data
+Releasing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data 0 false
+New index directory detected: old=null new=C:\test-reports\reports\reports-solr\solr\reports-core\data\index/
+return new directory for C:\test-reports\reports\reports-solr\solr\reports-core\data\index
+Releasing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data\index 0 false
+created json: solr.JSONResponseWriter
+adding lazy queryResponseWriter: solr.VelocityResponseWriter
+created velocity: solr.VelocityResponseWriter
+created xslt: solr.XSLTResponseWriter
+xsltCacheLifetimeSeconds=5
+created /select: solr.SearchHandler
+created /query: solr.SearchHandler
+created /get: solr.RealTimeGetHandler
+created /browse: solr.SearchHandler
+created /update: solr.UpdateRequestHandler
+created /update/json: solr.JsonUpdateRequestHandler
+created /update/csv: solr.CSVRequestHandler
+adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+created /update/extract: solr.extraction.ExtractingRequestHandler
+adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+created /analysis/field: solr.FieldAnalysisRequestHandler
+adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+created /analysis/document: solr.DocumentAnalysisRequestHandler
+created /admin/: solr.admin.AdminHandlers
+created /dataimport: org.apache.solr.handler.dataimport.DataImportHandler
+created /admin/ping: solr.PingRequestHandler
+created /debug/dump: solr.DumpRequestHandler
+created /replication: solr.ReplicationHandler
+created /mlt: solr.MoreLikeThisHandler
+adding lazy requestHandler: solr.SearchHandler
+created /spell: solr.SearchHandler
+adding lazy requestHandler: solr.SearchHandler
+created /tvrh: solr.SearchHandler
+adding lazy requestHandler: solr.SearchHandler
+created /terms: solr.SearchHandler
+adding lazy requestHandler: solr.SearchHandler
+created /elevate: solr.SearchHandler
+Unable to set the 'reuse-instance' property for the input chain: com.ctc.wstx.stax.WstxInputFactory@2edc99
+xsltCacheLifetimeSeconds=60
+Unable to set the 'reuse-instance' property for the input chain: com.ctc.wstx.stax.WstxInputFactory@afc7a9
+xsltCacheLifetimeSeconds=60
+Unable to set the 'reuse-instance' property for the input chain: com.ctc.wstx.stax.WstxInputFactory@5d53ae
+xsltCacheLifetimeSeconds=60
+solrconfig.xml missing optional admin/gettableFiles
+solrconfig.xml missing optional //bool[@name='facet.sort']
+Reusing cached directory: CachedDir<<refCount=1;path=C:\test-reports\reports\reports-solr\solr\reports-core\data;done=false>>
+Releasing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data 0 false
+Reusing cached directory: CachedDir<<refCount=1;path=C:\test-reports\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Opening Searcher@86eef6 main
+UpdateHandler init: tlogDir=C:\test-reports\reports\reports-solr\solr\reports-core\data\tlog, existing tlogs=[tlog.0000000000000000013], next id=14
+New TransactionLog file=C:\test-reports\reports\reports-solr\solr\reports-core\data\tlog\tlog.0000000000000000013, exists=true, size=22982, openExisting=true
+Hard AutoCommit: if uncommited for 15000ms; 
+Soft AutoCommit: disabled
+Initializing spell checkers
+init: {name=default,field=spell,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+No queryConverter defined, using default converter
+Loading QueryElevation from: C:\test-reports\reports\reports-solr\solr\reports-core\conf\elevate.xml
+Adding  component:org.apache.solr.handler.component.QueryComponent@4676c0
+Adding  component:org.apache.solr.handler.component.FacetComponent@1e42ac
+Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@ab61a8
+Adding  component:org.apache.solr.handler.component.HighlightComponent@19878a2
+Adding  component:org.apache.solr.handler.component.StatsComponent@117eb10
+Adding  debug component:org.apache.solr.handler.component.DebugComponent@149a37e
+Adding  component:org.apache.solr.handler.component.QueryComponent@4676c0
+Adding  component:org.apache.solr.handler.component.FacetComponent@1e42ac
+Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@ab61a8
+Adding  component:org.apache.solr.handler.component.HighlightComponent@19878a2
+Adding  component:org.apache.solr.handler.component.StatsComponent@117eb10
+Adding  debug component:org.apache.solr.handler.component.DebugComponent@149a37e
+Adding  component:org.apache.solr.handler.component.RealTimeGetComponent@18ce15a
+Adding  component:org.apache.solr.handler.component.QueryComponent@4676c0
+Adding  component:org.apache.solr.handler.component.FacetComponent@1e42ac
+Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@ab61a8
+Adding  component:org.apache.solr.handler.component.HighlightComponent@19878a2
+Adding  component:org.apache.solr.handler.component.StatsComponent@117eb10
+Adding  component:org.apache.solr.handler.component.SpellCheckComponent@1ef72d
+Adding  debug component:org.apache.solr.handler.component.DebugComponent@149a37e
+Commits will be reserved for  10000
+QuerySenderListener sending requests to Searcher@86eef6 main{StandardDirectoryReader(segments_g:69 _k(4.3):C162)}
+Reusing cached directory: CachedDir<<refCount=1;path=C:\test-reports\reports\reports-solr\solr\reports-core\data;done=false>>
+Releasing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data 0 false
+Reusing cached directory: CachedDir<<refCount=1;path=C:\test-reports\reports\reports-solr\solr\reports-core\data;done=false>>
+Releasing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data 0 false
+Reusing cached directory: CachedDir<<refCount=2;path=C:\test-reports\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Releasing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data\index 1 false
+[reports] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=484 
+QuerySenderListener done.
+Loading spell index for spellchecker: default
+Loading spell index for spellchecker: wordbreak
+[reports] Registered new searcher Searcher@86eef6 main{StandardDirectoryReader(segments_g:69 _k(4.3):C162)}
+registering core: reports
+user.dir=C:\test-reports\reports\reports-solr
+SolrDispatchFilter.init() done
+solrconfig.xml requestDispatcher/requestParsers/@multipartUploadLimitInKB=2048000
+solrconfig.xml requestDispatcher/requestParsers/@formdataUploadLimitInKB=2048
+solrconfig.xml requestDispatcher/requestParsers/@enableRemoteStreaming=true
+solrconfig.xml requestDispatcher/@handleSelect=false
+no handler or core retrieved for /admin.html, follow through...
+no handler or core retrieved for /css/styles/common.css, follow through...
+no handler or core retrieved for /css/styles/cloud.css, follow through...
+no handler or core retrieved for /css/styles/analysis.css, follow through...
+no handler or core retrieved for /css/styles/cores.css, follow through...
+no handler or core retrieved for /css/styles/dashboard.css, follow through...
+no handler or core retrieved for /css/styles/dataimport.css, follow through...
+no handler or core retrieved for /css/styles/index.css, follow through...
+no handler or core retrieved for /css/styles/java-properties.css, follow through...
+no handler or core retrieved for /css/styles/logging.css, follow through...
+no handler or core retrieved for /css/styles/menu.css, follow through...
+no handler or core retrieved for /css/styles/plugins.css, follow through...
+no handler or core retrieved for /css/styles/query.css, follow through...
+no handler or core retrieved for /css/styles/replication.css, follow through...
+no handler or core retrieved for /css/styles/schema-browser.css, follow through...
+no handler or core retrieved for /css/styles/threads.css, follow through...
+no handler or core retrieved for /css/chosen.css, follow through...
+no handler or core retrieved for /js/require.js, follow through...
+no handler or core retrieved for /img/favicon.ico, follow through...
+no handler or core retrieved for /js/main.js, follow through...
+no handler or core retrieved for /js/lib/order.js, follow through...
+no handler or core retrieved for /js/lib/console.js, follow through...
+no handler or core retrieved for /js/lib/jquery.autogrow.js, follow through...
+no handler or core retrieved for /js/lib/jquery.cookie.js, follow through...
+no handler or core retrieved for /js/lib/jquery.form.js, follow through...
+no handler or core retrieved for /js/lib/jquery.jstree.js, follow through...
+no handler or core retrieved for /js/lib/jquery.sammy.js, follow through...
+no handler or core retrieved for /js/lib/jquery.timeago.js, follow through...
+no handler or core retrieved for /js/lib/jquery.blockUI.js, follow through...
+no handler or core retrieved for /js/lib/highlight.js, follow through...
+no handler or core retrieved for /js/lib/linker.js, follow through...
+no handler or core retrieved for /js/lib/ZeroClipboard.js, follow through...
+no handler or core retrieved for /js/lib/d3.js, follow through...
+no handler or core retrieved for /js/lib/chosen.js, follow through...
+no handler or core retrieved for /js/scripts/app.js, follow through...
+no handler or core retrieved for /js/scripts/analysis.js, follow through...
+no handler or core retrieved for /js/scripts/cloud.js, follow through...
+no handler or core retrieved for /js/scripts/cores.js, follow through...
+no handler or core retrieved for /js/scripts/dataimport.js, follow through...
+no handler or core retrieved for /js/scripts/dashboard.js, follow through...
+no handler or core retrieved for /js/scripts/file.js, follow through...
+no handler or core retrieved for /js/scripts/index.js, follow through...
+no handler or core retrieved for /js/scripts/java-properties.js, follow through...
+no handler or core retrieved for /js/scripts/logging.js, follow through...
+no handler or core retrieved for /js/scripts/ping.js, follow through...
+no handler or core retrieved for /js/scripts/plugins.js, follow through...
+no handler or core retrieved for /js/scripts/query.js, follow through...
+no handler or core retrieved for /js/scripts/replication.js, follow through...
+no handler or core retrieved for /js/scripts/schema-browser.js, follow through...
+no handler or core retrieved for /js/scripts/threads.js, follow through...
+[admin] webapp=null path=/admin/cores params={indexInfo=false&_=1382691549760&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {indexInfo=false&_=1382691549760&wt=json}
+[reports] webapp=/solr path=/admin/system params={_=1382691550080&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {_=1382691550080&wt=json}
+no handler or core retrieved for /tpl/index.html, follow through...
+[reports] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-top.html&_=1382691551789&contentType=text/html;charset%3Dutf-8} status=0 QTime=0 
+Closing out SolrRequest: {file=admin-extra.menu-top.html&_=1382691551789&contentType=text%2Fhtml%3Bcharset%3Dutf-8&wt=raw}
+[reports] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-bottom.html&_=1382691551823&contentType=text/html;charset%3Dutf-8} status=0 QTime=0 
+Closing out SolrRequest: {file=admin-extra.menu-bottom.html&_=1382691551823&contentType=text%2Fhtml%3Bcharset%3Dutf-8&wt=raw}
+no handler or core retrieved for /tpl/dashboard.html, follow through...
+[reports] webapp=/solr path=/admin/luke params={numTerms=0&_=1382691552494&show=index&wt=json} status=0 QTime=16 
+Closing out SolrRequest: {numTerms=0&_=1382691552494&show=index&wt=json}
+Reusing cached directory: CachedDir<<refCount=2;path=C:\test-reports\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Releasing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data\index 1 false
+[reports] webapp=/solr path=/replication params={command=details&_=1382691552528&wt=json} status=0 QTime=16 
+Closing out SolrRequest: {command=details&_=1382691552528&wt=json}
+[reports] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1382691552590} status=0 QTime=0 
+Closing out SolrRequest: {file=admin-extra.html&_=1382691552590&wt=raw}
+[reports] webapp=/solr path=/admin/ping params={action=status&_=1382691552609&wt=json} status=503 QTime=0 
+Closing out SolrRequest: {echoParams=all&action=status&_=1382691552609&wt=json&q=solrpingquery&distrib=false}
+[reports] webapp=/solr path=/dataimport params={command=details&_=1382691552568&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(command=details&_=1382691552568&wt=json),defaults(config=data-config.xml)}}
+no handler or core retrieved for /img/ico/node-master.png, follow through...
+[reports] webapp=/solr path=/admin/ping params={ts=1382691553586&_=1382691553588&wt=json} hits=0 status=0 QTime=0 
+[reports] webapp=/solr path=/admin/ping params={ts=1382691553586&_=1382691553588&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(echoParams=all&ts=1382691553586&_=1382691553588&wt=json&q=solrpingquery&distrib=false),defaults(df=text&echoParams=explicit&rows=10)}}
+[reports] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1382691555952&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {cat=QUERYHANDLER&_=1382691555952&wt=json}
+no handler or core retrieved for /tpl/dataimport.html, follow through...
+[reports] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1382691556359&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {cat=QUERYHANDLER&_=1382691556359&wt=json}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=show-config&_=1382691556377} status=0 QTime=0 
+Closing out SolrRequest: {config=data-config.xml&indent=true&command=show-config&_=1382691556377&wt=raw}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691556420&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691556420&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691558842&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691558842&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691560919&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691560919&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691563119&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691563119&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691565741&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691565741&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691567831&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691567831&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691569985&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691569985&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691572572&wt=json} status=0 QTime=15 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691572572&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691574658&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691574658&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691576760&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691576760&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691578910&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691578910&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691580993&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691580993&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691586090&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691586090&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691591713&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691591713&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691593817&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691593817&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691595947&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691595947&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691598552&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691598552&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691600700&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691600700&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691603639&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691603639&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691605791&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691605791&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691608207&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691608207&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691611588&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691611588&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691614085&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691614085&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691616894&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691616894&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691620784&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691620784&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691623718&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691623718&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691626108&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691626108&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691629129&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691629129&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691632376&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691632376&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691634635&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691634635&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691637833&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691637833&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691640014&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691640014&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691643303&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691643303&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691645964&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691645964&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691650382&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691650382&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691652824&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691652824&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691655004&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691655004&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691657097&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691657097&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691659186&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691659186&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691661412&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691661412&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691663578&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691663578&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691665662&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691665662&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691667790&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691667790&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691670052&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691670052&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691672149&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691672149&wt=json),defaults(config=data-config.xml)}}
+Loading DIH Configuration: data-config.xml
+Data Configuration loaded successfully
+[reports] webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=63 
+Starting Full Import
+Closing out SolrRequest: {{params(command=full-import),defaults(config=data-config.xml)}}
+Read dataimport.properties
+PRE_UPDATE delete{,query=`*:*`,commitWithin=-1} {{params(command=full-import),defaults(config=data-config.xml)}}
+Reusing cached directory: CachedDir<<refCount=1;path=C:\test-reports\reports\reports-solr\solr\reports-core\data;done=false>>
+Releasing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data 0 false
+Reusing cached directory: CachedDir<<refCount=2;path=C:\test-reports\reports\reports-solr\solr\reports-core\data\index;done=false>>
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691674386&wt=json} status=0 QTime=94 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691674386&wt=json),defaults(config=data-config.xml)}}
+SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.SimpleFSDirectory@C:\test-reports\reports\reports-solr\solr\reports-core\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@19823ed; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_g,generation=16,filenames=[_k_Lucene41_0.pos, _k.nvd, _k_Lucene41_0.tim, _k.fdt, _k.nvm, _k_Lucene41_0.tip, _k.fdx, _k_Lucene41_0.doc, _k.fnm, _k.si, segments_g]
+newest commit = 16[_k_Lucene41_0.pos, _k.nvd, _k_Lucene41_0.tim, _k.fdt, _k.nvm, _k_Lucene41_0.tip, _k.fdx, _k_Lucene41_0.doc, _k.fnm, _k.si, segments_g]
+Opened Writer DirectUpdateHandler2
+New TransactionLog file=C:\test-reports\reports\reports-solr\solr\reports-core\data\tlog\tlog.0000000000000000014, exists=false, size=0, openExisting=false
+Reusing cached directory: CachedDir<<refCount=1;path=C:\test-reports\reports\reports-solr\solr\reports-core\data;done=false>>
+Releasing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data 0 false
+Opening Searcher@7cc58d realtime
+incRef'ed: CachedDir<<refCount=3;path=C:\test-reports\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Creating a connection for entity reports with URL: jdbc:mysql://127.0.0.1:3306/enterprise?autoReconnect=true&characterEncoding=utf8
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691677840&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691677840&wt=json),defaults(config=data-config.xml)}}
+Time taken for getConnection(): 3016
+Executing SQL: select id,performer,activity,startDate,endDate from reports
+PRE_UPDATE add{,id=1} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=2} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=3} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=4} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=5} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=6} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=7} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=8} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=9} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=10} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=11} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=12} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=13} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=14} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=15} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=16} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=17} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=18} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=19} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=20} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=21} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=22} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=23} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=24} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=25} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=26} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=27} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=28} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=29} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=30} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=31} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=32} {{params(command=full-import),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691680754&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691680754&wt=json),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=33} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=34} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=35} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=36} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=37} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=38} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=39} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=40} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=41} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=42} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=43} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=44} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=45} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=46} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=47} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=48} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=49} {{params(command=full-import),defaults(config=data-config.xml)}}
+PRE_UPDATE add{,id=50} {{params(command=full-import),defaults(config=data-config.xml)}}
+Import completed successfully
+PRE_UPDATE commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false} {{params(command=full-import),defaults(config=data-config.xml)}}
+start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+TLOG: preCommit
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691683318&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691683318&wt=json),defaults(config=data-config.xml)}}
+SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.SimpleFSDirectory@C:\test-reports\reports\reports-solr\solr\reports-core\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@19823ed; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_g,generation=16,filenames=[_k_Lucene41_0.pos, _k.nvd, _k_Lucene41_0.tim, _k.fdt, _k.nvm, _k_Lucene41_0.tip, _k.fdx, _k_Lucene41_0.doc, _k.fnm, _k.si, segments_g]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.SimpleFSDirectory@C:\test-reports\reports\reports-solr\solr\reports-core\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@19823ed; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_h,generation=17,filenames=[_l_Lucene41_0.tip, _l_Lucene41_0.tim, _l_Lucene41_0.doc, _l.nvm, _l.fnm, _l.si, _l.fdx, _l_Lucene41_0.pos, _l.fdt, _l.nvd, segments_h]
+newest commit = 17[_l_Lucene41_0.tip, _l_Lucene41_0.tim, _l_Lucene41_0.doc, _l.nvm, _l.fnm, _l.si, _l.fdx, _l_Lucene41_0.pos, _l.fdt, _l.nvd, segments_h]
+Reusing cached directory: CachedDir<<refCount=1;path=C:\test-reports\reports\reports-solr\solr\reports-core\data;done=false>>
+Releasing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data 0 false
+Opening Searcher@faf798 main
+incRef'ed: CachedDir<<refCount=4;path=C:\test-reports\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Closing Searcher@7cc58d realtime
+Releasing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data\index 3 false
+autowarming Searcher@faf798 main{StandardDirectoryReader(segments_h:73:nrt _l(4.3):C50)} from Searcher@86eef6 main{StandardDirectoryReader(segments_g:69 _k(4.3):C162)}
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+autowarming result for Searcher@faf798 main{StandardDirectoryReader(segments_h:73:nrt _l(4.3):C50)}
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+autowarming Searcher@faf798 main{StandardDirectoryReader(segments_h:73:nrt _l(4.3):C50)} from Searcher@86eef6 main{StandardDirectoryReader(segments_g:69 _k(4.3):C162)}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+autowarming result for Searcher@faf798 main{StandardDirectoryReader(segments_h:73:nrt _l(4.3):C50)}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+autowarming Searcher@faf798 main{StandardDirectoryReader(segments_h:73:nrt _l(4.3):C50)} from Searcher@86eef6 main{StandardDirectoryReader(segments_g:69 _k(4.3):C162)}
+	queryResultCache{lookups=1,hits=0,hitratio=0.00,inserts=2,evictions=0,size=2,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+autowarming result for Searcher@faf798 main{StandardDirectoryReader(segments_h:73:nrt _l(4.3):C50)}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=2,evictions=0,size=2,warmupTime=16,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+autowarming Searcher@faf798 main{StandardDirectoryReader(segments_h:73:nrt _l(4.3):C50)} from Searcher@86eef6 main{StandardDirectoryReader(segments_g:69 _k(4.3):C162)}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+autowarming result for Searcher@faf798 main{StandardDirectoryReader(segments_h:73:nrt _l(4.3):C50)}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+QuerySenderListener sending requests to Searcher@faf798 main{StandardDirectoryReader(segments_h:73:nrt _l(4.3):C50)}
+QuerySenderListener done.
+TLOG: postCommit
+[reports] Registered new searcher Searcher@faf798 main{StandardDirectoryReader(segments_h:73:nrt _l(4.3):C50)}
+Closing Searcher@86eef6 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=1,hits=0,hitratio=0.00,inserts=2,evictions=0,size=2,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Releasing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data\index 2 false
+end_commit_flush
+Read dataimport.properties
+Wrote last indexed time to dataimport.properties
+Time taken = 0:0:11.94
+PRE_UPDATE FINISH {{params(command=full-import),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={command=full-import} status=0 QTime=63 {deleteByQuery=*:* (-1449857305306726400),add=[1 (1449857310729961472), 2 (1449857311204966400), 3 (1449857311204966401), 4 (1449857311204966402), 5 (1449857311303532544), 6 (1449857311303532545), 7 (1449857311303532546), 8 (1449857311385321472), 9 (1449857311385321473), 10 (1449857311450333184), ... (50 adds)],commit=} 0 63
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691685521&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691685521&wt=json),defaults(config=data-config.xml)}}
+no handler or core retrieved for /img/ico/tick-circle.png, follow through...
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691687625&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691687625&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691689974&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691689974&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691693023&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691693023&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691695306&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691695306&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691697621&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691697621&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691699711&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691699711&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691701981&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691701981&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691706466&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691706466&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691709580&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691709580&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691711855&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691711855&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691714041&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691714041&wt=json),defaults(config=data-config.xml)}}
+Adding  component:org.apache.solr.handler.component.TermsComponent@7d2d5d
+[reports] webapp=/solr path=/terms params={terms.fl=performer&terms.fl=activity&terms=true&wt=javabin&qt=/terms&terms.raw=false&terms.sort=count&version=2&terms.maxcount=-1} status=0 QTime=0 
+Closing out SolrRequest: {{params(terms.fl=performer&terms.fl=activity&terms=true&wt=javabin&qt=/terms&terms.raw=false&terms.sort=count&version=2&terms.maxcount=-1),defaults(terms=true&distrib=false)}}
+[reports] webapp=/solr path=/terms params={terms.fl=performer&terms.fl=activity&terms=true&wt=javabin&qt=/terms&terms.raw=false&terms.sort=count&version=2&terms.maxcount=-1} status=0 QTime=0 
+Closing out SolrRequest: {{params(terms.fl=performer&terms.fl=activity&terms=true&wt=javabin&qt=/terms&terms.raw=false&terms.sort=count&version=2&terms.maxcount=-1),defaults(terms=true&distrib=false)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691716796&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691716796&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/select params={sort=startDate+desc&start=0&q=performer:*a*+OR+activity:*a*&group.field=performer&group.main=true&group=true&wt=javabin&version=2&defType=edismax&rows=8} hits=42 status=0 QTime=657 
+Closing out SolrRequest: {{params(sort=startDate+desc&start=0&q=performer:*a*+OR+activity:*a*&group.field=performer&group.main=true&group=true&wt=javabin&version=2&defType=edismax&rows=8),defaults(df=text&echoParams=explicit&rows=10)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691719627&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691719627&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/select params={start=0&q=performer:*a*+OR+activity:*a*&wt=javabin&version=2&defType=edismax&rows=10} hits=42 status=0 QTime=16 
+Closing out SolrRequest: {{params(start=0&q=performer:*a*+OR+activity:*a*&wt=javabin&version=2&defType=edismax&rows=10),defaults(df=text&echoParams=explicit&rows=10)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691721868&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691721868&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691723991&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691723991&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691726187&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691726187&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691728432&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691728432&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382691730974&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382691730974&wt=json),defaults(config=data-config.xml)}}
+Shutting down CoreContainer instance=23972155
+[reports]  CLOSING SolrCore org.apache.solr.core.SolrCore@a52751
+closing DirectUpdateHandler2{commits=1,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=50,cumulative_deletesById=0,cumulative_deletesByQuery=1,cumulative_errors=0}
+Closing SolrCoreState
+SolrCoreState ref count has reached 0 - closing IndexWriter
+closing IndexWriter with IndexWriterCloser
+Closing tlogtlog{file=C:\test-reports\reports\reports-solr\solr\reports-core\data\tlog\tlog.0000000000000000014 refcount=0}
+Closing tlogtlog{file=C:\test-reports\reports\reports-solr\solr\reports-core\data\tlog\tlog.0000000000000000013 refcount=0}
+Closing Writer DirectUpdateHandler2
+Releasing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data\index 1 false
+[reports] Closing main searcher on request.
+Closing Searcher@faf798 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=1,hits=0,hitratio=0.00,inserts=3,evictions=0,size=3,warmupTime=16,cumulative_lookups=2,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=2,cumulative_evictions=0}
+	documentCache{lookups=18,hits=1,hitratio=0.05,inserts=17,evictions=0,size=17,warmupTime=0,cumulative_lookups=18,cumulative_hits=1,cumulative_hitratio=0.05,cumulative_inserts=17,cumulative_evictions=0}
+Releasing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data\index 0 false
+Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+Closing NRTCachingDirectoryFactory - currently tracking: CachedDir<<refCount=0;path=C:\test-reports\reports\reports-solr\solr\reports-core\data;done=false>>
+Closing NRTCachingDirectoryFactory - currently tracking: CachedDir<<refCount=0;path=C:\test-reports\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Closing directory when closing factory: C:\test-reports\reports\reports-solr\solr\reports-core\data
+looking to close C:\test-reports\reports\reports-solr\solr\reports-core\data [CachedDir<<refCount=0;path=C:\test-reports\reports\reports-solr\solr\reports-core\data;done=false>>]
+Closing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data
+Closing directory when closing factory: C:\test-reports\reports\reports-solr\solr\reports-core\data\index
+looking to close C:\test-reports\reports\reports-solr\solr\reports-core\data\index [CachedDir<<refCount=0;path=C:\test-reports\reports\reports-solr\solr\reports-core\data\index;done=false>>]
+Closing directory: C:\test-reports\reports\reports-solr\solr\reports-core\data\index
+Removing from cache: CachedDir<<refCount=0;path=C:\test-reports\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Removing from cache: CachedDir<<refCount=0;path=C:\test-reports\reports\reports-solr\solr\reports-core\data;done=false>>
+Connection manager is shutting down
+Connection manager shut down
+Connection manager is shutting down
+Connection manager shut down

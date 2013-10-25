@@ -4,3 +4,6 @@
 *.jar
 *.war
 *.ear
+/reports-solr/target/
+/reports-solr/solr
+/reports-app/target/
