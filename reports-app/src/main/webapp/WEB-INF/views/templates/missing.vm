@@ -1,0 +1,2 @@
+#springMessage("content.missing.title")
+#set($page_title = 'Missing')

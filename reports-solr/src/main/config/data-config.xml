@@ -1,0 +1,14 @@
+<dataConfig>
+    <dataSource type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://127.0.0.1:3306/enterprise?autoReconnect=true&amp;characterEncoding=utf8" 
+                user="root" password="secret" readOnly="True" />
+        <document name="reports">
+            <entity name="reports" query="select id,performer,activity,startDate,endDate from reports"
+                deltaImportQuery="select id,performer,activity,startDate,endDate from reports where ID='${dih.delta.id}'">
+                <field column="id" name="id" />
+                <field column="performer" name="performer" />
+                <field column="activity" name="activity" />
+                <field column="endDate" name="endDate" />
+                <field column="startDate" name="startDate" />
+            </entity>
+        </document>
+</dataConfig>

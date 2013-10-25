@@ -1,0 +1,1166 @@
+SolrDispatchFilter.init()
+No /solr/home in JNDI
+solr home defaulted to 'solr/' (could not find system property or JNDI)
+looking for solr config file: /home/paul/NetBeansProjects/reports/reports-solr/solr/solr.xml
+New CoreContainer 12944946
+Loading CoreContainer using Solr Home: 'solr/'
+new SolrResourceLoader for directory: 'solr/'
+Adding 'file:/home/paul/NetBeansProjects/reports/reports-solr/solr/lib/mysql-connector-java-5.1.18.jar' to classloader
+Adding 'file:/home/paul/NetBeansProjects/reports/reports-solr/solr/lib/solr-dataimporthandler-4.3.1.jar' to classloader
+Adding 'file:/home/paul/NetBeansProjects/reports/reports-solr/solr/lib/solr-dataimporthandler-extras-4.3.1.jar' to classloader
+null missing optional solr/str[@name='adminHandler']
+null missing optional solr/int[@name='coreLoadThreads']
+null missing optional solr/str[@name='coreRootDirectory']
+null missing optional solr/solrcloud/int[@name='distribUpdateConnTimeout']
+null missing optional solr/solrcloud/int[@name='distribUpdateSoTimeout']
+null missing optional solr/solrcloud/str[@name='host']
+null missing optional solr/solrcloud/str[@name='hostContext']
+null missing optional solr/solrcloud/int[@name='hostPort']
+null missing optional solr/solrcloud/int[@name='leaderVoteWait']
+null missing optional solr/str[@name='managementPath']
+null missing optional solr/str[@name='sharedLib']
+null missing optional solr/str[@name='shareSchema']
+null missing optional solr/int[@name='transientCacheSize']
+null missing optional solr/solrcloud/int[@name='zkClientTimeout']
+null missing optional solr/solrcloud/int[@name='zkHost']
+null missing optional solr/logging/str[@name='class']
+null missing optional solr/logging/str[@name='enabled']
+null missing optional solr/logging/watcher/int[@name='size']
+null missing optional solr/logging/watcher/int[@name='threshold']
+null missing optional solr/@coreLoadThreads
+null missing optional solr/@sharedLib
+null missing optional solr/@zkHost
+null missing optional solr/logging/@class
+null missing optional solr/logging/@enabled
+null missing optional solr/logging/watcher/@size
+null missing optional solr/logging/watcher/@threshold
+null missing optional solr/cores/@adminHandler
+null missing optional solr/cores/@distribUpdateConnTimeout
+null missing optional solr/cores/@distribUpdateSoTimeout
+null solr/cores/@host=${host:}
+null solr/cores/@hostContext=${hostContext:}
+null solr/cores/@hostPort=${jetty.port:}
+null missing optional solr/cores/@leaderVoteWait
+null missing optional solr/cores/@managementPath
+null missing optional solr/cores/@shareSchema
+null missing optional solr/cores/@transientCacheSize
+null solr/cores/@zkClientTimeout=${zkClientTimeout:15000}
+null missing optional solr/shardHandlerFactory/@class
+null missing optional solr/shardHandlerFactory/@name
+null missing optional solr/shardHandlerFactory/int[@connTimeout]
+null missing optional solr/shardHandlerFactory/int[@socketTimeout]
+null solr/cores/@defaultCoreName=reports
+null solr/@persistent=true
+null solr/cores/@adminPath=/admin/cores
+null missing optional solr/str[@name='adminHandler']
+null missing optional solr/int[@name='coreLoadThreads']
+null missing optional solr/str[@name='coreRootDirectory']
+null missing optional solr/solrcloud/int[@name='distribUpdateConnTimeout']
+null missing optional solr/solrcloud/int[@name='distribUpdateSoTimeout']
+null missing optional solr/solrcloud/str[@name='host']
+null missing optional solr/solrcloud/str[@name='hostContext']
+null missing optional solr/solrcloud/int[@name='hostPort']
+null missing optional solr/solrcloud/int[@name='leaderVoteWait']
+null missing optional solr/str[@name='managementPath']
+null missing optional solr/str[@name='sharedLib']
+null missing optional solr/str[@name='shareSchema']
+null missing optional solr/int[@name='transientCacheSize']
+null missing optional solr/solrcloud/int[@name='zkClientTimeout']
+null missing optional solr/solrcloud/int[@name='zkHost']
+null missing optional solr/logging/str[@name='class']
+null missing optional solr/logging/str[@name='enabled']
+null missing optional solr/logging/watcher/int[@name='size']
+null missing optional solr/logging/watcher/int[@name='threshold']
+null missing optional solr/@coreLoadThreads
+null missing optional solr/@sharedLib
+null missing optional solr/@zkHost
+null missing optional solr/logging/@class
+null missing optional solr/logging/@enabled
+null missing optional solr/logging/watcher/@size
+null missing optional solr/logging/watcher/@threshold
+null missing optional solr/cores/@adminHandler
+null missing optional solr/cores/@distribUpdateConnTimeout
+null missing optional solr/cores/@distribUpdateSoTimeout
+null solr/cores/@host=${host:}
+null solr/cores/@hostContext=${hostContext:}
+null solr/cores/@hostPort=${jetty.port:}
+null missing optional solr/cores/@leaderVoteWait
+null missing optional solr/cores/@managementPath
+null missing optional solr/cores/@shareSchema
+null missing optional solr/cores/@transientCacheSize
+null solr/cores/@zkClientTimeout=${zkClientTimeout:15000}
+null missing optional solr/shardHandlerFactory/@class
+null missing optional solr/shardHandlerFactory/@name
+null missing optional solr/shardHandlerFactory/int[@connTimeout]
+null missing optional solr/shardHandlerFactory/int[@socketTimeout]
+null solr/cores/@defaultCoreName=reports
+null solr/@persistent=true
+null solr/cores/@adminPath=/admin/cores
+null missing optional solr/cores/shardHandlerFactory
+Setting socketTimeout to: 0
+Setting urlScheme to: http://
+Setting connTimeout to: 0
+Setting maxConnectionsPerHost to: 20
+Setting corePoolSize to: 0
+Setting maximumPoolSize to: 2147483647
+Setting maxThreadIdleTime to: 5
+Setting sizeOfQueue to: -1
+Setting fairnessPolicy to: false
+Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+Registering Log Listener
+Creating SolrCore 'reports' using instanceDir: solr/reports-core
+new SolrResourceLoader for directory: 'solr/reports-core/'
+Adding specified lib dirs to ClassLoader
+Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/../../../contrib/extraction/lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/../../../dist).
+Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/../../../contrib/clustering/lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/../../../dist).
+Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/../../../contrib/langid/lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/../../../dist).
+Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/../../../contrib/velocity/lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/../../../dist).
+Adding 'file:/home/paul/NetBeansProjects/reports/reports-solr/solr/lib/mysql-connector-java-5.1.18.jar' to classloader
+Adding 'file:/home/paul/NetBeansProjects/reports/reports-solr/solr/lib/solr-dataimporthandler-4.3.1.jar' to classloader
+Adding 'file:/home/paul/NetBeansProjects/reports/reports-solr/solr/lib/solr-dataimporthandler-extras-4.3.1.jar' to classloader
+Can't find (or read) directory to add to classloader: /non/existent/dir/yields/warning (resolved as: /non/existent/dir/yields/warning).
+solrconfig.xml luceneMatchVersion=LUCENE_43
+solrconfig.xml missing optional indexDefaults/text()
+solrconfig.xml missing optional mainIndex/text()
+solrconfig.xml indexConfig/text()=
+    
+solrconfig.xml missing optional indexConfig/mergeScheduler/text()
+solrconfig.xml missing optional indexConfig/mergePolicy/text()
+solrconfig.xml missing optional indexConfig/luceneAutoCommit
+solrconfig.xml missing optional indexConfig/useCompoundFile
+solrconfig.xml missing optional indexConfig/maxBufferedDocs
+solrconfig.xml missing optional indexConfig/maxMergeDocs
+solrconfig.xml missing optional indexConfig/maxIndexingThreads
+solrconfig.xml missing optional indexConfig/mergeFactor
+solrconfig.xml missing optional indexConfig/ramBufferSizeMB
+solrconfig.xml missing optional indexConfig/writeLockTimeout
+solrconfig.xml indexConfig/lockType=native
+solrconfig.xml missing optional indexConfig/termIndexInterval
+solrconfig.xml missing optional indexConfig/infoStream
+solrconfig.xml missing optional indexConfig/reopenReaders
+solrconfig.xml query/maxBooleanClauses=1024
+Using Lucene MatchVersion: LUCENE_43
+solrconfig.xml missing optional query/boolTofilterOptimizer
+solrconfig.xml missing optional query/HashDocSet
+solrconfig.xml missing optional query/useFilterForSortedQuery
+solrconfig.xml query/queryResultWindowSize=20
+solrconfig.xml query/queryResultMaxDocsCached=200
+solrconfig.xml query/enableLazyFieldLoading=true
+solrconfig.xml missing optional query/fieldValueCache
+solrconfig.xml missing optional indexConfig/unlockOnStartup
+solrconfig.xml query/useColdSearcher=false
+solrconfig.xml dataDir=
+solrconfig.xml missing optional //HashDocSet/@loadFactor
+solrconfig.xml missing optional //HashDocSet/@maxSize
+solrconfig.xml requestDispatcher/httpCaching/@never304=true
+solrconfig.xml missing optional requestDispatcher/httpCaching/@etagSeed
+solrconfig.xml missing optional requestDispatcher/httpCaching/@lastModFrom
+solrconfig.xml missing optional requestDispatcher/httpCaching/cacheControl
+solrconfig.xml missing optional jmx/@agentId
+solrconfig.xml missing optional jmx/@serviceUrl
+solrconfig.xml missing optional jmx/@rootName
+solrconfig.xml query/maxWarmingSearchers=2
+solrconfig.xml updateHandler/@class=solr.DirectUpdateHandler2
+solrconfig.xml missing optional updateHandler/autoCommit/maxDocs
+solrconfig.xml updateHandler/autoCommit/maxTime=15000
+solrconfig.xml updateHandler/autoCommit/openSearcher=false
+solrconfig.xml missing optional updateHandler/commitIntervalLowerBound
+solrconfig.xml missing optional updateHandler/autoSoftCommit/maxDocs
+solrconfig.xml missing optional updateHandler/autoSoftCommit/maxTime
+solrconfig.xml missing optional updateHandler/commitWithin/softCommit
+Loaded SolrConfig: solrconfig.xml
+Reading Solr Schema from schema.xml
+Schema name=todo
+schema /schema/@version=1.5
+created long: org.apache.solr.schema.TrieLongField
+created string: org.apache.solr.schema.StrField
+created text_general: org.apache.solr.schema.TextField
+created date: org.apache.solr.schema.DateField
+created : org.apache.lucene.analysis.standard.StandardTokenizerFactory
+created : org.apache.lucene.analysis.core.StopFilterFactory
+created : org.apache.lucene.analysis.synonym.SynonymFilterFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created : org.apache.lucene.analysis.standard.StandardTokenizerFactory
+created : org.apache.lucene.analysis.core.StopFilterFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created text_ws: org.apache.solr.schema.TextField
+created : org.apache.lucene.analysis.charfilter.MappingCharFilterFactory
+created : org.apache.lucene.analysis.core.WhitespaceTokenizerFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created text_ws2: org.apache.solr.schema.TextField
+created : org.apache.lucene.analysis.standard.StandardTokenizerFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created : org.apache.lucene.analysis.core.StopFilterFactory
+created : org.apache.lucene.analysis.miscellaneous.LengthFilterFactory
+created text_spell: org.apache.solr.schema.TextField
+field defined: id{type=long,properties=indexed,stored,omitNorms,omitTermFreqAndPositions,required, required=true}
+id is required in this schema
+field defined: performer{type=text_ws,properties=indexed,tokenized,stored}
+field defined: activity{type=text_ws,properties=indexed,tokenized,stored}
+field defined: startDate{type=date,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}
+field defined: endDate{type=date,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}
+field defined: text{type=text_general,properties=indexed,tokenized,multiValued}
+field defined: spell{type=text_spell,properties=indexed,tokenized,multiValued}
+field defined: _version_{type=long,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}
+default search field in schema is performer
+using default query parser operator (OR)
+unique key field: id
+copyField source='performer' dest='text' maxChars=0
+copyField source='activity' dest='text' maxChars=0
+copyField source='text' dest='spell' maxChars=0
+solr.NRTCachingDirectoryFactory
+[reports] Opening new SolrCore at solr/reports-core/, dataDir=/home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data/
+JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@1f46366
+[reports] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+[reports] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+solr.NRTCachingDirectoryFactory
+return new directory for /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data
+Releasing directory: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data 0 false
+New index directory detected: old=null new=/home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data/index/
+return new directory for /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data/index
+Releasing directory: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data/index 0 false
+created json: solr.JSONResponseWriter
+adding lazy queryResponseWriter: solr.VelocityResponseWriter
+created velocity: solr.VelocityResponseWriter
+created xslt: solr.XSLTResponseWriter
+xsltCacheLifetimeSeconds=5
+created /select: solr.SearchHandler
+created /query: solr.SearchHandler
+created /get: solr.RealTimeGetHandler
+created /browse: solr.SearchHandler
+created /update: solr.UpdateRequestHandler
+created /update/json: solr.JsonUpdateRequestHandler
+created /update/csv: solr.CSVRequestHandler
+adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+created /update/extract: solr.extraction.ExtractingRequestHandler
+adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+created /analysis/field: solr.FieldAnalysisRequestHandler
+adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+created /analysis/document: solr.DocumentAnalysisRequestHandler
+created /admin/: solr.admin.AdminHandlers
+created /dataimport: org.apache.solr.handler.dataimport.DataImportHandler
+created /admin/ping: solr.PingRequestHandler
+created /debug/dump: solr.DumpRequestHandler
+created /replication: solr.ReplicationHandler
+created /mlt: solr.MoreLikeThisHandler
+adding lazy requestHandler: solr.SearchHandler
+created /spell: solr.SearchHandler
+adding lazy requestHandler: solr.SearchHandler
+created /tvrh: solr.SearchHandler
+adding lazy requestHandler: solr.SearchHandler
+created /terms: solr.SearchHandler
+adding lazy requestHandler: solr.SearchHandler
+created /elevate: solr.SearchHandler
+Unable to set the 'reuse-instance' property for the input chain: com.ctc.wstx.stax.WstxInputFactory@1218889
+xsltCacheLifetimeSeconds=60
+Unable to set the 'reuse-instance' property for the input chain: com.ctc.wstx.stax.WstxInputFactory@a3e662
+xsltCacheLifetimeSeconds=60
+Unable to set the 'reuse-instance' property for the input chain: com.ctc.wstx.stax.WstxInputFactory@6a5b72
+xsltCacheLifetimeSeconds=60
+solrconfig.xml missing optional admin/gettableFiles
+solrconfig.xml missing optional //bool[@name='facet.sort']
+Reusing cached directory: CachedDir<<refCount=1;path=/home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data;done=false>>
+Releasing directory: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data 0 false
+Reusing cached directory: CachedDir<<refCount=1;path=/home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data/index;done=false>>
+Opening Searcher@1cc04f3 main
+UpdateHandler init: tlogDir=/home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data/tlog, existing tlogs=[tlog.0000000000000000013], next id=14
+New TransactionLog file=/home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data/tlog/tlog.0000000000000000013, exists=true, size=22982, openExisting=true
+Hard AutoCommit: if uncommited for 15000ms; 
+Soft AutoCommit: disabled
+Initializing spell checkers
+init: {name=default,field=spell,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+No queryConverter defined, using default converter
+Loading QueryElevation from: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/conf/elevate.xml
+Adding  component:org.apache.solr.handler.component.QueryComponent@18bedaf
+Adding  component:org.apache.solr.handler.component.FacetComponent@1a1b458
+Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@1473dd8
+Adding  component:org.apache.solr.handler.component.HighlightComponent@2d3196
+Adding  component:org.apache.solr.handler.component.StatsComponent@1128cb0
+Adding  debug component:org.apache.solr.handler.component.DebugComponent@d2aec1
+Adding  component:org.apache.solr.handler.component.QueryComponent@18bedaf
+Adding  component:org.apache.solr.handler.component.FacetComponent@1a1b458
+Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@1473dd8
+Adding  component:org.apache.solr.handler.component.HighlightComponent@2d3196
+Adding  component:org.apache.solr.handler.component.StatsComponent@1128cb0
+Adding  debug component:org.apache.solr.handler.component.DebugComponent@d2aec1
+Adding  component:org.apache.solr.handler.component.RealTimeGetComponent@1cf3083
+Adding  component:org.apache.solr.handler.component.QueryComponent@18bedaf
+Adding  component:org.apache.solr.handler.component.FacetComponent@1a1b458
+Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@1473dd8
+Adding  component:org.apache.solr.handler.component.HighlightComponent@2d3196
+Adding  component:org.apache.solr.handler.component.StatsComponent@1128cb0
+Adding  component:org.apache.solr.handler.component.SpellCheckComponent@179ee83
+Adding  debug component:org.apache.solr.handler.component.DebugComponent@d2aec1
+Commits will be reserved for  10000
+Reusing cached directory: CachedDir<<refCount=1;path=/home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data;done=false>>
+QuerySenderListener sending requests to Searcher@1cc04f3 main{StandardDirectoryReader(segments_g:69 _k(4.3):C162)}
+Releasing directory: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data 0 false
+Reusing cached directory: CachedDir<<refCount=1;path=/home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data;done=false>>
+Releasing directory: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data 0 false
+Reusing cached directory: CachedDir<<refCount=2;path=/home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data/index;done=false>>
+Releasing directory: /home/paul/NetBeansProjects/reports/reports-solr/solr/reports-core/data/index 1 false
+[reports] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=74 
+QuerySenderListener done.
+Loading spell index for spellchecker: default
+Loading spell index for spellchecker: wordbreak
+[reports] Registered new searcher Searcher@1cc04f3 main{StandardDirectoryReader(segments_g:69 _k(4.3):C162)}
+registering core: reports
+user.dir=/home/paul/NetBeansProjects/reports/reports-solr
+SolrDispatchFilter.init() done
+solrconfig.xml requestDispatcher/requestParsers/@multipartUploadLimitInKB=2048000
+solrconfig.xml requestDispatcher/requestParsers/@formdataUploadLimitInKB=2048
+solrconfig.xml requestDispatcher/requestParsers/@enableRemoteStreaming=true
+solrconfig.xml requestDispatcher/@handleSelect=false
+no handler or core retrieved for /admin.html, follow through...
+no handler or core retrieved for /img/favicon.ico, follow through...
+[admin] webapp=null path=/admin/cores params={indexInfo=false&_=1382649287238&wt=json} status=0 QTime=49 
+Closing out SolrRequest: {indexInfo=false&_=1382649287238&wt=json}
+no handler or core retrieved for /img/chosen-sprite.png, follow through...
+[reports] webapp=/solr path=/admin/system params={_=1382649287412&wt=json} status=0 QTime=39 
+Closing out SolrRequest: {_=1382649287412&wt=json}
+no handler or core retrieved for /tpl/index.html, follow through...
+no handler or core retrieved for /img/ico/property.png, follow through...
+no handler or core retrieved for /img/ico/server.png, follow through...
+no handler or core retrieved for /img/ico/system-monitor.png, follow through...
+no handler or core retrieved for /img/ico/arrow-circle.png, follow through...
+no handler or core retrieved for /img/ico/memory.png, follow through...
+no handler or core retrieved for /img/ico/clock-select.png, follow through...
+no handler or core retrieved for /img/ico/globe.png, follow through...
+no handler or core retrieved for /img/ico/folder.png, follow through...
+no handler or core retrieved for /img/solr-ico.png, follow through...
+no handler or core retrieved for /img/lucene-ico.png, follow through...
+no handler or core retrieved for /img/ico/processor.png, follow through...
+no handler or core retrieved for /img/ico/terminal.png, follow through...
+Closing out SolrRequest: {{params(command=full-import),defaults(config=data-config.xml)}}
+Closing out SolrRequest: {{params(command=full-import),defaults(config=data-config.xml)}}
+Closing out SolrRequest: {{params(command=full-import),defaults(config=data-config.xml)}}
+Adding  component:org.apache.solr.handler.component.TermsComponent@1ccfb13
+Closing out SolrRequest: {{params(terms.fl=performer&terms.fl=activity&terms=true&wt=javabin&qt=/terms&terms.raw=false&terms.sort=count&version=2&terms.maxcount=-1),defaults(terms=true&distrib=false)}}
+Shutting down CoreContainer instance=12944946
+Error shutting down core:java.lang.NoClassDefFoundError: org/apache/solr/core/SolrXMLSerializer$SolrCoreXMLDef
+	at org.apache.solr.core.ConfigSolrXml.addPersistCore(ConfigSolrXml.java:535)
+	at org.apache.solr.core.ConfigSolrXml.addPersistCore(ConfigSolrXml.java:531)
+	at org.apache.solr.core.CoreMaps.addPersistOneCore(CoreContainer.java:2001)
+	at org.apache.solr.core.CoreMaps.clearMaps(CoreContainer.java:1553)
+	at org.apache.solr.core.CoreContainer.shutdown(CoreContainer.java:714)
+	at org.apache.solr.servlet.SolrDispatchFilter.destroy(SolrDispatchFilter.java:148)
+	at org.apache.catalina.core.ApplicationFilterConfig.release(ApplicationFilterConfig.java:357)
+	at org.apache.catalina.core.StandardContext.filterStop(StandardContext.java:4107)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4876)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1110)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1110)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:468)
+	at org.apache.catalina.startup.Embedded.stop(Embedded.java:867)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.tomcat.maven.common.run.EmbeddedRegistry.shutdownAll(EmbeddedRegistry.java:110)
+	at org.apache.tomcat.maven.common.run.EmbeddedRegistry$1.run(EmbeddedRegistry.java:69)
+Caused by: java.lang.ClassNotFoundException: org.apache.solr.core.SolrXMLSerializer$SolrCoreXMLDef
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1680)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1526)
+	... 19 more
+
+Connection manager is shutting down
+Connection manager shut down
+SolrDispatchFilter.init()
+No /solr/home in JNDI
+using system property solr.solr.home: solr
+looking for solr config file: D:\projects\reports\reports-solr\solr\solr.xml
+New CoreContainer 19721946
+Loading CoreContainer using Solr Home: 'solr\'
+new SolrResourceLoader for directory: 'solr\'
+Adding 'file:/D:/projects/reports/reports-solr/solr/lib/mysql-connector-java-5.1.18.jar' to classloader
+Adding 'file:/D:/projects/reports/reports-solr/solr/lib/solr-dataimporthandler-4.3.1.jar' to classloader
+Adding 'file:/D:/projects/reports/reports-solr/solr/lib/solr-dataimporthandler-extras-4.3.1.jar' to classloader
+null missing optional solr/str[@name='adminHandler']
+null missing optional solr/int[@name='coreLoadThreads']
+null missing optional solr/str[@name='coreRootDirectory']
+null missing optional solr/solrcloud/int[@name='distribUpdateConnTimeout']
+null missing optional solr/solrcloud/int[@name='distribUpdateSoTimeout']
+null missing optional solr/solrcloud/str[@name='host']
+null missing optional solr/solrcloud/str[@name='hostContext']
+null missing optional solr/solrcloud/int[@name='hostPort']
+null missing optional solr/solrcloud/int[@name='leaderVoteWait']
+null missing optional solr/str[@name='managementPath']
+null missing optional solr/str[@name='sharedLib']
+null missing optional solr/str[@name='shareSchema']
+null missing optional solr/int[@name='transientCacheSize']
+null missing optional solr/solrcloud/int[@name='zkClientTimeout']
+null missing optional solr/solrcloud/int[@name='zkHost']
+null missing optional solr/logging/str[@name='class']
+null missing optional solr/logging/str[@name='enabled']
+null missing optional solr/logging/watcher/int[@name='size']
+null missing optional solr/logging/watcher/int[@name='threshold']
+null missing optional solr/@coreLoadThreads
+null missing optional solr/@sharedLib
+null missing optional solr/@zkHost
+null missing optional solr/logging/@class
+null missing optional solr/logging/@enabled
+null missing optional solr/logging/watcher/@size
+null missing optional solr/logging/watcher/@threshold
+null missing optional solr/cores/@adminHandler
+null missing optional solr/cores/@distribUpdateConnTimeout
+null missing optional solr/cores/@distribUpdateSoTimeout
+null solr/cores/@host=${host:}
+null solr/cores/@hostContext=${hostContext:}
+null solr/cores/@hostPort=${jetty.port:}
+null missing optional solr/cores/@leaderVoteWait
+null missing optional solr/cores/@managementPath
+null missing optional solr/cores/@shareSchema
+null missing optional solr/cores/@transientCacheSize
+null solr/cores/@zkClientTimeout=${zkClientTimeout:15000}
+null missing optional solr/shardHandlerFactory/@class
+null missing optional solr/shardHandlerFactory/@name
+null missing optional solr/shardHandlerFactory/int[@connTimeout]
+null missing optional solr/shardHandlerFactory/int[@socketTimeout]
+null solr/cores/@defaultCoreName=reports
+null solr/@persistent=true
+null solr/cores/@adminPath=/admin/cores
+null missing optional solr/str[@name='adminHandler']
+null missing optional solr/int[@name='coreLoadThreads']
+null missing optional solr/str[@name='coreRootDirectory']
+null missing optional solr/solrcloud/int[@name='distribUpdateConnTimeout']
+null missing optional solr/solrcloud/int[@name='distribUpdateSoTimeout']
+null missing optional solr/solrcloud/str[@name='host']
+null missing optional solr/solrcloud/str[@name='hostContext']
+null missing optional solr/solrcloud/int[@name='hostPort']
+null missing optional solr/solrcloud/int[@name='leaderVoteWait']
+null missing optional solr/str[@name='managementPath']
+null missing optional solr/str[@name='sharedLib']
+null missing optional solr/str[@name='shareSchema']
+null missing optional solr/int[@name='transientCacheSize']
+null missing optional solr/solrcloud/int[@name='zkClientTimeout']
+null missing optional solr/solrcloud/int[@name='zkHost']
+null missing optional solr/logging/str[@name='class']
+null missing optional solr/logging/str[@name='enabled']
+null missing optional solr/logging/watcher/int[@name='size']
+null missing optional solr/logging/watcher/int[@name='threshold']
+null missing optional solr/@coreLoadThreads
+null missing optional solr/@sharedLib
+null missing optional solr/@zkHost
+null missing optional solr/logging/@class
+null missing optional solr/logging/@enabled
+null missing optional solr/logging/watcher/@size
+null missing optional solr/logging/watcher/@threshold
+null missing optional solr/cores/@adminHandler
+null missing optional solr/cores/@distribUpdateConnTimeout
+null missing optional solr/cores/@distribUpdateSoTimeout
+null solr/cores/@host=${host:}
+null solr/cores/@hostContext=${hostContext:}
+null solr/cores/@hostPort=${jetty.port:}
+null missing optional solr/cores/@leaderVoteWait
+null missing optional solr/cores/@managementPath
+null missing optional solr/cores/@shareSchema
+null missing optional solr/cores/@transientCacheSize
+null solr/cores/@zkClientTimeout=${zkClientTimeout:15000}
+null missing optional solr/shardHandlerFactory/@class
+null missing optional solr/shardHandlerFactory/@name
+null missing optional solr/shardHandlerFactory/int[@connTimeout]
+null missing optional solr/shardHandlerFactory/int[@socketTimeout]
+null solr/cores/@defaultCoreName=reports
+null solr/@persistent=true
+null solr/cores/@adminPath=/admin/cores
+null missing optional solr/cores/shardHandlerFactory
+Setting socketTimeout to: 0
+Setting urlScheme to: http://
+Setting connTimeout to: 0
+Setting maxConnectionsPerHost to: 20
+Setting corePoolSize to: 0
+Setting maximumPoolSize to: 2147483647
+Setting maxThreadIdleTime to: 5
+Setting sizeOfQueue to: -1
+Setting fairnessPolicy to: false
+Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+Registering Log Listener
+Creating SolrCore 'reports' using instanceDir: solr\reports-core
+new SolrResourceLoader for directory: 'solr\reports-core\'
+Adding specified lib dirs to ClassLoader
+Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\contrib\extraction\lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\dist).
+Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\contrib\clustering\lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\dist).
+Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\contrib\langid\lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\dist).
+Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\contrib\velocity\lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\dist).
+Adding 'file:/D:/projects/reports/reports-solr/solr/lib/mysql-connector-java-5.1.18.jar' to classloader
+Adding 'file:/D:/projects/reports/reports-solr/solr/lib/solr-dataimporthandler-4.3.1.jar' to classloader
+Adding 'file:/D:/projects/reports/reports-solr/solr/lib/solr-dataimporthandler-extras-4.3.1.jar' to classloader
+Can't find (or read) directory to add to classloader: /non/existent/dir/yields/warning (resolved as: D:\projects\reports\reports-solr\solr\reports-core\non\existent\dir\yields\warning).
+solrconfig.xml luceneMatchVersion=LUCENE_43
+solrconfig.xml missing optional indexDefaults/text()
+solrconfig.xml missing optional mainIndex/text()
+solrconfig.xml indexConfig/text()=
+    
+solrconfig.xml missing optional indexConfig/mergeScheduler/text()
+solrconfig.xml missing optional indexConfig/mergePolicy/text()
+solrconfig.xml missing optional indexConfig/luceneAutoCommit
+solrconfig.xml missing optional indexConfig/useCompoundFile
+solrconfig.xml missing optional indexConfig/maxBufferedDocs
+solrconfig.xml missing optional indexConfig/maxMergeDocs
+solrconfig.xml missing optional indexConfig/maxIndexingThreads
+solrconfig.xml missing optional indexConfig/mergeFactor
+solrconfig.xml missing optional indexConfig/ramBufferSizeMB
+solrconfig.xml missing optional indexConfig/writeLockTimeout
+solrconfig.xml indexConfig/lockType=native
+solrconfig.xml missing optional indexConfig/termIndexInterval
+solrconfig.xml missing optional indexConfig/infoStream
+solrconfig.xml missing optional indexConfig/reopenReaders
+solrconfig.xml query/maxBooleanClauses=1024
+Using Lucene MatchVersion: LUCENE_43
+solrconfig.xml missing optional query/boolTofilterOptimizer
+solrconfig.xml missing optional query/HashDocSet
+solrconfig.xml missing optional query/useFilterForSortedQuery
+solrconfig.xml query/queryResultWindowSize=20
+solrconfig.xml query/queryResultMaxDocsCached=200
+solrconfig.xml query/enableLazyFieldLoading=true
+solrconfig.xml missing optional query/fieldValueCache
+solrconfig.xml missing optional indexConfig/unlockOnStartup
+solrconfig.xml query/useColdSearcher=false
+solrconfig.xml dataDir=
+solrconfig.xml missing optional //HashDocSet/@loadFactor
+solrconfig.xml missing optional //HashDocSet/@maxSize
+solrconfig.xml requestDispatcher/httpCaching/@never304=true
+solrconfig.xml missing optional requestDispatcher/httpCaching/@etagSeed
+solrconfig.xml missing optional requestDispatcher/httpCaching/@lastModFrom
+solrconfig.xml missing optional requestDispatcher/httpCaching/cacheControl
+solrconfig.xml missing optional jmx/@agentId
+solrconfig.xml missing optional jmx/@serviceUrl
+solrconfig.xml missing optional jmx/@rootName
+solrconfig.xml query/maxWarmingSearchers=2
+solrconfig.xml updateHandler/@class=solr.DirectUpdateHandler2
+solrconfig.xml missing optional updateHandler/autoCommit/maxDocs
+solrconfig.xml updateHandler/autoCommit/maxTime=15000
+solrconfig.xml updateHandler/autoCommit/openSearcher=false
+solrconfig.xml missing optional updateHandler/commitIntervalLowerBound
+solrconfig.xml missing optional updateHandler/autoSoftCommit/maxDocs
+solrconfig.xml missing optional updateHandler/autoSoftCommit/maxTime
+solrconfig.xml missing optional updateHandler/commitWithin/softCommit
+Loaded SolrConfig: solrconfig.xml
+Reading Solr Schema from schema.xml
+Schema name=todo
+schema /schema/@version=1.5
+created long: org.apache.solr.schema.TrieLongField
+created string: org.apache.solr.schema.StrField
+created text_general: org.apache.solr.schema.TextField
+created date: org.apache.solr.schema.DateField
+created : org.apache.lucene.analysis.standard.StandardTokenizerFactory
+created : org.apache.lucene.analysis.core.StopFilterFactory
+created : org.apache.lucene.analysis.synonym.SynonymFilterFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created : org.apache.lucene.analysis.standard.StandardTokenizerFactory
+created : org.apache.lucene.analysis.core.StopFilterFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created text_ws: org.apache.solr.schema.TextField
+created : org.apache.lucene.analysis.charfilter.MappingCharFilterFactory
+created : org.apache.lucene.analysis.core.WhitespaceTokenizerFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created text_ws2: org.apache.solr.schema.TextField
+created : org.apache.lucene.analysis.standard.StandardTokenizerFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created : org.apache.lucene.analysis.core.StopFilterFactory
+created : org.apache.lucene.analysis.miscellaneous.LengthFilterFactory
+created text_spell: org.apache.solr.schema.TextField
+field defined: id{type=long,properties=indexed,stored,omitNorms,omitTermFreqAndPositions,required, required=true}
+id is required in this schema
+field defined: performer{type=text_ws,properties=indexed,tokenized,stored}
+field defined: activity{type=text_ws,properties=indexed,tokenized,stored}
+field defined: startDate{type=date,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}
+field defined: endDate{type=date,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}
+field defined: text{type=text_general,properties=indexed,tokenized,multiValued}
+field defined: spell{type=text_spell,properties=indexed,tokenized,multiValued}
+field defined: _version_{type=long,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}
+default search field in schema is performer
+using default query parser operator (OR)
+unique key field: id
+copyField source='performer' dest='text' maxChars=0
+copyField source='activity' dest='text' maxChars=0
+copyField source='text' dest='spell' maxChars=0
+solr.NRTCachingDirectoryFactory
+[reports] Opening new SolrCore at solr\reports-core\, dataDir=D:\projects\reports\reports-solr\solr\reports-core\data\
+JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@15ab69d
+[reports] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+[reports] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+solr.NRTCachingDirectoryFactory
+return new directory for D:\projects\reports\reports-solr\solr\reports-core\data
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data 0 false
+New index directory detected: old=null new=D:\projects\reports\reports-solr\solr\reports-core\data\index/
+return new directory for D:\projects\reports\reports-solr\solr\reports-core\data\index
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data\index 0 false
+created json: solr.JSONResponseWriter
+adding lazy queryResponseWriter: solr.VelocityResponseWriter
+created velocity: solr.VelocityResponseWriter
+created xslt: solr.XSLTResponseWriter
+xsltCacheLifetimeSeconds=5
+created /select: solr.SearchHandler
+created /query: solr.SearchHandler
+created /get: solr.RealTimeGetHandler
+created /browse: solr.SearchHandler
+created /update: solr.UpdateRequestHandler
+created /update/json: solr.JsonUpdateRequestHandler
+created /update/csv: solr.CSVRequestHandler
+adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+created /update/extract: solr.extraction.ExtractingRequestHandler
+adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+created /analysis/field: solr.FieldAnalysisRequestHandler
+adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+created /analysis/document: solr.DocumentAnalysisRequestHandler
+created /admin/: solr.admin.AdminHandlers
+created /dataimport: org.apache.solr.handler.dataimport.DataImportHandler
+created /admin/ping: solr.PingRequestHandler
+created /debug/dump: solr.DumpRequestHandler
+created /replication: solr.ReplicationHandler
+created /mlt: solr.MoreLikeThisHandler
+adding lazy requestHandler: solr.SearchHandler
+created /spell: solr.SearchHandler
+adding lazy requestHandler: solr.SearchHandler
+created /tvrh: solr.SearchHandler
+adding lazy requestHandler: solr.SearchHandler
+created /terms: solr.SearchHandler
+adding lazy requestHandler: solr.SearchHandler
+created /elevate: solr.SearchHandler
+Unable to set the 'reuse-instance' property for the input chain: com.ctc.wstx.stax.WstxInputFactory@27d572
+xsltCacheLifetimeSeconds=60
+Unable to set the 'reuse-instance' property for the input chain: com.ctc.wstx.stax.WstxInputFactory@84c9e8
+xsltCacheLifetimeSeconds=60
+Unable to set the 'reuse-instance' property for the input chain: com.ctc.wstx.stax.WstxInputFactory@1e3dc28
+xsltCacheLifetimeSeconds=60
+solrconfig.xml missing optional admin/gettableFiles
+solrconfig.xml missing optional //bool[@name='facet.sort']
+Reusing cached directory: CachedDir<<refCount=1;path=D:\projects\reports\reports-solr\solr\reports-core\data;done=false>>
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data 0 false
+Reusing cached directory: CachedDir<<refCount=1;path=D:\projects\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Opening Searcher@b7da51 main
+UpdateHandler init: tlogDir=D:\projects\reports\reports-solr\solr\reports-core\data\tlog, existing tlogs=[tlog.0000000000000000013], next id=14
+New TransactionLog file=D:\projects\reports\reports-solr\solr\reports-core\data\tlog\tlog.0000000000000000013, exists=true, size=22982, openExisting=true
+Hard AutoCommit: if uncommited for 15000ms; 
+Soft AutoCommit: disabled
+Initializing spell checkers
+init: {name=default,field=spell,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+No queryConverter defined, using default converter
+Loading QueryElevation from: D:\projects\reports\reports-solr\solr\reports-core\conf\elevate.xml
+Adding  component:org.apache.solr.handler.component.QueryComponent@9c4706
+Adding  component:org.apache.solr.handler.component.FacetComponent@1fafc0d
+Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@b9e48e
+Adding  component:org.apache.solr.handler.component.HighlightComponent@4c2807
+Adding  component:org.apache.solr.handler.component.StatsComponent@1d8224b
+Adding  debug component:org.apache.solr.handler.component.DebugComponent@b3793b
+Adding  component:org.apache.solr.handler.component.QueryComponent@9c4706
+Adding  component:org.apache.solr.handler.component.FacetComponent@1fafc0d
+Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@b9e48e
+Adding  component:org.apache.solr.handler.component.HighlightComponent@4c2807
+Adding  component:org.apache.solr.handler.component.StatsComponent@1d8224b
+Adding  debug component:org.apache.solr.handler.component.DebugComponent@b3793b
+Adding  component:org.apache.solr.handler.component.RealTimeGetComponent@dc3dfb
+Adding  component:org.apache.solr.handler.component.QueryComponent@9c4706
+Adding  component:org.apache.solr.handler.component.FacetComponent@1fafc0d
+Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@b9e48e
+Adding  component:org.apache.solr.handler.component.HighlightComponent@4c2807
+Adding  component:org.apache.solr.handler.component.StatsComponent@1d8224b
+Adding  component:org.apache.solr.handler.component.SpellCheckComponent@1696299
+Adding  debug component:org.apache.solr.handler.component.DebugComponent@b3793b
+Commits will be reserved for  10000
+QuerySenderListener sending requests to Searcher@b7da51 main{StandardDirectoryReader(segments_g:69 _k(4.3):C162)}
+Reusing cached directory: CachedDir<<refCount=1;path=D:\projects\reports\reports-solr\solr\reports-core\data;done=false>>
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data 0 false
+Reusing cached directory: CachedDir<<refCount=1;path=D:\projects\reports\reports-solr\solr\reports-core\data;done=false>>
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data 0 false
+Reusing cached directory: CachedDir<<refCount=2;path=D:\projects\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data\index 1 false
+[reports] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=203 
+QuerySenderListener done.
+Loading spell index for spellchecker: default
+Loading spell index for spellchecker: wordbreak
+[reports] Registered new searcher Searcher@b7da51 main{StandardDirectoryReader(segments_g:69 _k(4.3):C162)}
+registering core: reports
+user.dir=D:\projects\reports\reports-solr
+SolrDispatchFilter.init() done
+solrconfig.xml requestDispatcher/requestParsers/@multipartUploadLimitInKB=2048000
+solrconfig.xml requestDispatcher/requestParsers/@formdataUploadLimitInKB=2048
+solrconfig.xml requestDispatcher/requestParsers/@enableRemoteStreaming=true
+solrconfig.xml requestDispatcher/@handleSelect=false
+no handler or core retrieved for /admin.html, follow through...
+no handler or core retrieved for /css/styles/common.css, follow through...
+no handler or core retrieved for /css/styles/analysis.css, follow through...
+no handler or core retrieved for /css/styles/cloud.css, follow through...
+no handler or core retrieved for /css/styles/cores.css, follow through...
+no handler or core retrieved for /css/styles/dashboard.css, follow through...
+no handler or core retrieved for /css/styles/dataimport.css, follow through...
+no handler or core retrieved for /css/styles/index.css, follow through...
+no handler or core retrieved for /css/styles/java-properties.css, follow through...
+no handler or core retrieved for /css/styles/logging.css, follow through...
+no handler or core retrieved for /css/styles/menu.css, follow through...
+no handler or core retrieved for /css/styles/plugins.css, follow through...
+no handler or core retrieved for /css/styles/query.css, follow through...
+no handler or core retrieved for /css/styles/replication.css, follow through...
+no handler or core retrieved for /css/styles/schema-browser.css, follow through...
+no handler or core retrieved for /css/styles/threads.css, follow through...
+no handler or core retrieved for /css/chosen.css, follow through...
+no handler or core retrieved for /js/require.js, follow through...
+no handler or core retrieved for /img/favicon.ico, follow through...
+no handler or core retrieved for /js/main.js, follow through...
+no handler or core retrieved for /js/lib/order.js, follow through...
+no handler or core retrieved for /js/lib/console.js, follow through...
+no handler or core retrieved for /js/lib/jquery.autogrow.js, follow through...
+no handler or core retrieved for /js/lib/jquery.cookie.js, follow through...
+no handler or core retrieved for /js/lib/jquery.form.js, follow through...
+no handler or core retrieved for /js/lib/jquery.jstree.js, follow through...
+no handler or core retrieved for /js/lib/jquery.sammy.js, follow through...
+no handler or core retrieved for /js/lib/jquery.timeago.js, follow through...
+no handler or core retrieved for /js/lib/jquery.blockUI.js, follow through...
+no handler or core retrieved for /js/lib/highlight.js, follow through...
+no handler or core retrieved for /js/lib/linker.js, follow through...
+no handler or core retrieved for /js/lib/ZeroClipboard.js, follow through...
+no handler or core retrieved for /js/lib/d3.js, follow through...
+no handler or core retrieved for /js/lib/chosen.js, follow through...
+no handler or core retrieved for /js/scripts/app.js, follow through...
+no handler or core retrieved for /js/scripts/analysis.js, follow through...
+no handler or core retrieved for /js/scripts/cloud.js, follow through...
+no handler or core retrieved for /js/scripts/cores.js, follow through...
+no handler or core retrieved for /js/scripts/dataimport.js, follow through...
+no handler or core retrieved for /js/scripts/dashboard.js, follow through...
+no handler or core retrieved for /js/scripts/file.js, follow through...
+no handler or core retrieved for /js/scripts/index.js, follow through...
+no handler or core retrieved for /js/scripts/java-properties.js, follow through...
+no handler or core retrieved for /js/scripts/logging.js, follow through...
+no handler or core retrieved for /js/scripts/ping.js, follow through...
+no handler or core retrieved for /js/scripts/plugins.js, follow through...
+no handler or core retrieved for /js/scripts/query.js, follow through...
+no handler or core retrieved for /js/scripts/replication.js, follow through...
+no handler or core retrieved for /js/scripts/schema-browser.js, follow through...
+no handler or core retrieved for /js/scripts/threads.js, follow through...
+[admin] webapp=null path=/admin/cores params={indexInfo=false&_=1382679837962&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {indexInfo=false&_=1382679837962&wt=json}
+[reports] webapp=/solr path=/admin/system params={_=1382679838179&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {_=1382679838179&wt=json}
+no handler or core retrieved for /tpl/index.html, follow through...
+[reports] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-top.html&_=1382679840098&contentType=text/html;charset%3Dutf-8} status=0 QTime=0 
+Closing out SolrRequest: {file=admin-extra.menu-top.html&_=1382679840098&contentType=text%2Fhtml%3Bcharset%3Dutf-8&wt=raw}
+[reports] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-bottom.html&_=1382679840110&contentType=text/html;charset%3Dutf-8} status=0 QTime=0 
+Closing out SolrRequest: {file=admin-extra.menu-bottom.html&_=1382679840110&contentType=text%2Fhtml%3Bcharset%3Dutf-8&wt=raw}
+no handler or core retrieved for /tpl/dashboard.html, follow through...
+[reports] webapp=/solr path=/admin/luke params={numTerms=0&_=1382679840394&show=index&wt=json} status=0 QTime=16 
+Closing out SolrRequest: {numTerms=0&_=1382679840394&show=index&wt=json}
+Reusing cached directory: CachedDir<<refCount=2;path=D:\projects\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data\index 1 false
+[reports] webapp=/solr path=/replication params={command=details&_=1382679840424&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {command=details&_=1382679840424&wt=json}
+[reports] webapp=/solr path=/dataimport params={command=details&_=1382679840444&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(command=details&_=1382679840444&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1382679840458} status=0 QTime=16 
+Closing out SolrRequest: {file=admin-extra.html&_=1382679840458&wt=raw}
+[reports] webapp=/solr path=/admin/ping params={action=status&_=1382679840475&wt=json} status=503 QTime=0 
+Closing out SolrRequest: {echoParams=all&action=status&_=1382679840475&wt=json&q=solrpingquery&distrib=false}
+[reports] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1382679846354&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {cat=QUERYHANDLER&_=1382679846354&wt=json}
+no handler or core retrieved for /tpl/dataimport.html, follow through...
+[reports] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1382679846713&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {cat=QUERYHANDLER&_=1382679846713&wt=json}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=show-config&_=1382679846727} status=0 QTime=16 
+Closing out SolrRequest: {config=data-config.xml&indent=true&command=show-config&_=1382679846727&wt=raw}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382679846762&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382679846762&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/dataimport params={indent=true&command=status&_=1382679849173&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(indent=true&command=status&_=1382679849173&wt=json),defaults(config=data-config.xml)}}
+no handler or core retrieved for /tpl/dashboard.html, follow through...
+[reports] webapp=/solr path=/admin/luke params={numTerms=0&_=1382679851304&show=index&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {numTerms=0&_=1382679851304&show=index&wt=json}
+Reusing cached directory: CachedDir<<refCount=2;path=D:\projects\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data\index 1 false
+[reports] webapp=/solr path=/replication params={command=details&_=1382679851324&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {command=details&_=1382679851324&wt=json}
+[reports] webapp=/solr path=/dataimport params={command=details&_=1382679851341&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(command=details&_=1382679851341&wt=json),defaults(config=data-config.xml)}}
+[reports] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1382679851358} status=0 QTime=0 
+Closing out SolrRequest: {file=admin-extra.html&_=1382679851358&wt=raw}
+[reports] webapp=/solr path=/admin/ping params={action=status&_=1382679851373&wt=json} status=503 QTime=0 
+Closing out SolrRequest: {echoParams=all&action=status&_=1382679851373&wt=json&q=solrpingquery&distrib=false}
+[reports] webapp=/solr path=/admin/ping params={ts=1382679851817&_=1382679851819&wt=json} hits=0 status=0 QTime=0 
+[reports] webapp=/solr path=/admin/ping params={ts=1382679851817&_=1382679851819&wt=json} status=0 QTime=0 
+Closing out SolrRequest: {{params(echoParams=all&ts=1382679851817&_=1382679851819&wt=json&q=solrpingquery&distrib=false),defaults(df=text&echoParams=explicit&rows=10)}}
+Shutting down CoreContainer instance=19721946
+[reports]  CLOSING SolrCore org.apache.solr.core.SolrCore@130ebf6
+closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+Closing SolrCoreState
+SolrCoreState ref count has reached 0 - closing IndexWriter
+closing IndexWriter with IndexWriterCloser
+Closing tlogtlog{file=D:\projects\reports\reports-solr\solr\reports-core\data\tlog\tlog.0000000000000000013 refcount=0}
+[reports] Closing main searcher on request.
+Closing Searcher@b7da51 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=1,hits=0,hitratio=0.00,inserts=2,evictions=0,size=2,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data\index 0 false
+Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+Closing NRTCachingDirectoryFactory - currently tracking: CachedDir<<refCount=0;path=D:\projects\reports\reports-solr\solr\reports-core\data;done=false>>
+Closing NRTCachingDirectoryFactory - currently tracking: CachedDir<<refCount=0;path=D:\projects\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Closing directory when closing factory: D:\projects\reports\reports-solr\solr\reports-core\data
+looking to close D:\projects\reports\reports-solr\solr\reports-core\data [CachedDir<<refCount=0;path=D:\projects\reports\reports-solr\solr\reports-core\data;done=false>>]
+Closing directory: D:\projects\reports\reports-solr\solr\reports-core\data
+Closing directory when closing factory: D:\projects\reports\reports-solr\solr\reports-core\data\index
+looking to close D:\projects\reports\reports-solr\solr\reports-core\data\index [CachedDir<<refCount=0;path=D:\projects\reports\reports-solr\solr\reports-core\data\index;done=false>>]
+Closing directory: D:\projects\reports\reports-solr\solr\reports-core\data\index
+Removing from cache: CachedDir<<refCount=0;path=D:\projects\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Removing from cache: CachedDir<<refCount=0;path=D:\projects\reports\reports-solr\solr\reports-core\data;done=false>>
+Connection manager is shutting down
+Connection manager shut down
+Connection manager is shutting down
+Connection manager shut down
+SolrDispatchFilter.init()
+No /solr/home in JNDI
+solr home defaulted to 'solr/' (could not find system property or JNDI)
+looking for solr config file: D:\projects\reports\reports-solr\solr\solr.xml
+New CoreContainer 18649601
+Loading CoreContainer using Solr Home: 'solr/'
+new SolrResourceLoader for directory: 'solr/'
+Adding 'file:/D:/projects/reports/reports-solr/solr/lib/mysql-connector-java-5.1.18.jar' to classloader
+Adding 'file:/D:/projects/reports/reports-solr/solr/lib/solr-dataimporthandler-4.3.1.jar' to classloader
+Adding 'file:/D:/projects/reports/reports-solr/solr/lib/solr-dataimporthandler-extras-4.3.1.jar' to classloader
+null missing optional solr/str[@name='adminHandler']
+null missing optional solr/int[@name='coreLoadThreads']
+null missing optional solr/str[@name='coreRootDirectory']
+null missing optional solr/solrcloud/int[@name='distribUpdateConnTimeout']
+null missing optional solr/solrcloud/int[@name='distribUpdateSoTimeout']
+null missing optional solr/solrcloud/str[@name='host']
+null missing optional solr/solrcloud/str[@name='hostContext']
+null missing optional solr/solrcloud/int[@name='hostPort']
+null missing optional solr/solrcloud/int[@name='leaderVoteWait']
+null missing optional solr/str[@name='managementPath']
+null missing optional solr/str[@name='sharedLib']
+null missing optional solr/str[@name='shareSchema']
+null missing optional solr/int[@name='transientCacheSize']
+null missing optional solr/solrcloud/int[@name='zkClientTimeout']
+null missing optional solr/solrcloud/int[@name='zkHost']
+null missing optional solr/logging/str[@name='class']
+null missing optional solr/logging/str[@name='enabled']
+null missing optional solr/logging/watcher/int[@name='size']
+null missing optional solr/logging/watcher/int[@name='threshold']
+null missing optional solr/@coreLoadThreads
+null missing optional solr/@sharedLib
+null missing optional solr/@zkHost
+null missing optional solr/logging/@class
+null missing optional solr/logging/@enabled
+null missing optional solr/logging/watcher/@size
+null missing optional solr/logging/watcher/@threshold
+null missing optional solr/cores/@adminHandler
+null missing optional solr/cores/@distribUpdateConnTimeout
+null missing optional solr/cores/@distribUpdateSoTimeout
+null solr/cores/@host=${host:}
+null solr/cores/@hostContext=${hostContext:}
+null solr/cores/@hostPort=${jetty.port:}
+null missing optional solr/cores/@leaderVoteWait
+null missing optional solr/cores/@managementPath
+null missing optional solr/cores/@shareSchema
+null missing optional solr/cores/@transientCacheSize
+null solr/cores/@zkClientTimeout=${zkClientTimeout:15000}
+null missing optional solr/shardHandlerFactory/@class
+null missing optional solr/shardHandlerFactory/@name
+null missing optional solr/shardHandlerFactory/int[@connTimeout]
+null missing optional solr/shardHandlerFactory/int[@socketTimeout]
+null solr/cores/@defaultCoreName=reports
+null solr/@persistent=true
+null solr/cores/@adminPath=/admin/cores
+null missing optional solr/str[@name='adminHandler']
+null missing optional solr/int[@name='coreLoadThreads']
+null missing optional solr/str[@name='coreRootDirectory']
+null missing optional solr/solrcloud/int[@name='distribUpdateConnTimeout']
+null missing optional solr/solrcloud/int[@name='distribUpdateSoTimeout']
+null missing optional solr/solrcloud/str[@name='host']
+null missing optional solr/solrcloud/str[@name='hostContext']
+null missing optional solr/solrcloud/int[@name='hostPort']
+null missing optional solr/solrcloud/int[@name='leaderVoteWait']
+null missing optional solr/str[@name='managementPath']
+null missing optional solr/str[@name='sharedLib']
+null missing optional solr/str[@name='shareSchema']
+null missing optional solr/int[@name='transientCacheSize']
+null missing optional solr/solrcloud/int[@name='zkClientTimeout']
+null missing optional solr/solrcloud/int[@name='zkHost']
+null missing optional solr/logging/str[@name='class']
+null missing optional solr/logging/str[@name='enabled']
+null missing optional solr/logging/watcher/int[@name='size']
+null missing optional solr/logging/watcher/int[@name='threshold']
+null missing optional solr/@coreLoadThreads
+null missing optional solr/@sharedLib
+null missing optional solr/@zkHost
+null missing optional solr/logging/@class
+null missing optional solr/logging/@enabled
+null missing optional solr/logging/watcher/@size
+null missing optional solr/logging/watcher/@threshold
+null missing optional solr/cores/@adminHandler
+null missing optional solr/cores/@distribUpdateConnTimeout
+null missing optional solr/cores/@distribUpdateSoTimeout
+null solr/cores/@host=${host:}
+null solr/cores/@hostContext=${hostContext:}
+null solr/cores/@hostPort=${jetty.port:}
+null missing optional solr/cores/@leaderVoteWait
+null missing optional solr/cores/@managementPath
+null missing optional solr/cores/@shareSchema
+null missing optional solr/cores/@transientCacheSize
+null solr/cores/@zkClientTimeout=${zkClientTimeout:15000}
+null missing optional solr/shardHandlerFactory/@class
+null missing optional solr/shardHandlerFactory/@name
+null missing optional solr/shardHandlerFactory/int[@connTimeout]
+null missing optional solr/shardHandlerFactory/int[@socketTimeout]
+null solr/cores/@defaultCoreName=reports
+null solr/@persistent=true
+null solr/cores/@adminPath=/admin/cores
+null missing optional solr/cores/shardHandlerFactory
+Setting socketTimeout to: 0
+Setting urlScheme to: http://
+Setting connTimeout to: 0
+Setting maxConnectionsPerHost to: 20
+Setting corePoolSize to: 0
+Setting maximumPoolSize to: 2147483647
+Setting maxThreadIdleTime to: 5
+Setting sizeOfQueue to: -1
+Setting fairnessPolicy to: false
+Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
+Registering Log Listener
+Creating SolrCore 'reports' using instanceDir: solr\reports-core
+new SolrResourceLoader for directory: 'solr\reports-core\'
+Adding specified lib dirs to ClassLoader
+Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\contrib\extraction\lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\dist).
+Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\contrib\clustering\lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\dist).
+Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\contrib\langid\lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\dist).
+Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\contrib\velocity\lib).
+Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: D:\projects\reports\reports-solr\solr\reports-core\..\..\..\dist).
+Adding 'file:/D:/projects/reports/reports-solr/solr/lib/mysql-connector-java-5.1.18.jar' to classloader
+Adding 'file:/D:/projects/reports/reports-solr/solr/lib/solr-dataimporthandler-4.3.1.jar' to classloader
+Adding 'file:/D:/projects/reports/reports-solr/solr/lib/solr-dataimporthandler-extras-4.3.1.jar' to classloader
+Can't find (or read) directory to add to classloader: /non/existent/dir/yields/warning (resolved as: D:\projects\reports\reports-solr\solr\reports-core\non\existent\dir\yields\warning).
+solrconfig.xml luceneMatchVersion=LUCENE_43
+solrconfig.xml missing optional indexDefaults/text()
+solrconfig.xml missing optional mainIndex/text()
+solrconfig.xml indexConfig/text()=
+    
+solrconfig.xml missing optional indexConfig/mergeScheduler/text()
+solrconfig.xml missing optional indexConfig/mergePolicy/text()
+solrconfig.xml missing optional indexConfig/luceneAutoCommit
+solrconfig.xml missing optional indexConfig/useCompoundFile
+solrconfig.xml missing optional indexConfig/maxBufferedDocs
+solrconfig.xml missing optional indexConfig/maxMergeDocs
+solrconfig.xml missing optional indexConfig/maxIndexingThreads
+solrconfig.xml missing optional indexConfig/mergeFactor
+solrconfig.xml missing optional indexConfig/ramBufferSizeMB
+solrconfig.xml missing optional indexConfig/writeLockTimeout
+solrconfig.xml indexConfig/lockType=native
+solrconfig.xml missing optional indexConfig/termIndexInterval
+solrconfig.xml missing optional indexConfig/infoStream
+solrconfig.xml missing optional indexConfig/reopenReaders
+solrconfig.xml query/maxBooleanClauses=1024
+Using Lucene MatchVersion: LUCENE_43
+solrconfig.xml missing optional query/boolTofilterOptimizer
+solrconfig.xml missing optional query/HashDocSet
+solrconfig.xml missing optional query/useFilterForSortedQuery
+solrconfig.xml query/queryResultWindowSize=20
+solrconfig.xml query/queryResultMaxDocsCached=200
+solrconfig.xml query/enableLazyFieldLoading=true
+solrconfig.xml missing optional query/fieldValueCache
+solrconfig.xml missing optional indexConfig/unlockOnStartup
+solrconfig.xml query/useColdSearcher=false
+solrconfig.xml dataDir=
+solrconfig.xml missing optional //HashDocSet/@loadFactor
+solrconfig.xml missing optional //HashDocSet/@maxSize
+solrconfig.xml requestDispatcher/httpCaching/@never304=true
+solrconfig.xml missing optional requestDispatcher/httpCaching/@etagSeed
+solrconfig.xml missing optional requestDispatcher/httpCaching/@lastModFrom
+solrconfig.xml missing optional requestDispatcher/httpCaching/cacheControl
+solrconfig.xml missing optional jmx/@agentId
+solrconfig.xml missing optional jmx/@serviceUrl
+solrconfig.xml missing optional jmx/@rootName
+solrconfig.xml query/maxWarmingSearchers=2
+solrconfig.xml updateHandler/@class=solr.DirectUpdateHandler2
+solrconfig.xml missing optional updateHandler/autoCommit/maxDocs
+solrconfig.xml updateHandler/autoCommit/maxTime=15000
+solrconfig.xml updateHandler/autoCommit/openSearcher=false
+solrconfig.xml missing optional updateHandler/commitIntervalLowerBound
+solrconfig.xml missing optional updateHandler/autoSoftCommit/maxDocs
+solrconfig.xml missing optional updateHandler/autoSoftCommit/maxTime
+solrconfig.xml missing optional updateHandler/commitWithin/softCommit
+Loaded SolrConfig: solrconfig.xml
+Reading Solr Schema from schema.xml
+Schema name=todo
+schema /schema/@version=1.5
+created long: org.apache.solr.schema.TrieLongField
+created string: org.apache.solr.schema.StrField
+created text_general: org.apache.solr.schema.TextField
+created date: org.apache.solr.schema.DateField
+created : org.apache.lucene.analysis.standard.StandardTokenizerFactory
+created : org.apache.lucene.analysis.core.StopFilterFactory
+created : org.apache.lucene.analysis.synonym.SynonymFilterFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created : org.apache.lucene.analysis.standard.StandardTokenizerFactory
+created : org.apache.lucene.analysis.core.StopFilterFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created text_ws: org.apache.solr.schema.TextField
+created : org.apache.lucene.analysis.charfilter.MappingCharFilterFactory
+created : org.apache.lucene.analysis.core.WhitespaceTokenizerFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created text_ws2: org.apache.solr.schema.TextField
+created : org.apache.lucene.analysis.standard.StandardTokenizerFactory
+created : org.apache.lucene.analysis.core.LowerCaseFilterFactory
+created : org.apache.lucene.analysis.core.StopFilterFactory
+created : org.apache.lucene.analysis.miscellaneous.LengthFilterFactory
+created text_spell: org.apache.solr.schema.TextField
+field defined: id{type=long,properties=indexed,stored,omitNorms,omitTermFreqAndPositions,required, required=true}
+id is required in this schema
+field defined: performer{type=text_ws,properties=indexed,tokenized,stored}
+field defined: activity{type=text_ws,properties=indexed,tokenized,stored}
+field defined: startDate{type=date,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}
+field defined: endDate{type=date,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}
+field defined: text{type=text_general,properties=indexed,tokenized,multiValued}
+field defined: spell{type=text_spell,properties=indexed,tokenized,multiValued}
+field defined: _version_{type=long,properties=indexed,stored,omitNorms,omitTermFreqAndPositions}
+default search field in schema is performer
+using default query parser operator (OR)
+unique key field: id
+copyField source='performer' dest='text' maxChars=0
+copyField source='activity' dest='text' maxChars=0
+copyField source='text' dest='spell' maxChars=0
+solr.NRTCachingDirectoryFactory
+[reports] Opening new SolrCore at solr\reports-core\, dataDir=D:\projects\reports\reports-solr\solr\reports-core\data\
+JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@bb3040
+[reports] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+[reports] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+solr.NRTCachingDirectoryFactory
+return new directory for D:\projects\reports\reports-solr\solr\reports-core\data
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data 0 false
+New index directory detected: old=null new=D:\projects\reports\reports-solr\solr\reports-core\data\index/
+return new directory for D:\projects\reports\reports-solr\solr\reports-core\data\index
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data\index 0 false
+created json: solr.JSONResponseWriter
+adding lazy queryResponseWriter: solr.VelocityResponseWriter
+created velocity: solr.VelocityResponseWriter
+created xslt: solr.XSLTResponseWriter
+xsltCacheLifetimeSeconds=5
+created /select: solr.SearchHandler
+created /query: solr.SearchHandler
+created /get: solr.RealTimeGetHandler
+created /browse: solr.SearchHandler
+created /update: solr.UpdateRequestHandler
+created /update/json: solr.JsonUpdateRequestHandler
+created /update/csv: solr.CSVRequestHandler
+adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+created /update/extract: solr.extraction.ExtractingRequestHandler
+adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+created /analysis/field: solr.FieldAnalysisRequestHandler
+adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+created /analysis/document: solr.DocumentAnalysisRequestHandler
+created /admin/: solr.admin.AdminHandlers
+created /dataimport: org.apache.solr.handler.dataimport.DataImportHandler
+created /admin/ping: solr.PingRequestHandler
+created /debug/dump: solr.DumpRequestHandler
+created /replication: solr.ReplicationHandler
+created /mlt: solr.MoreLikeThisHandler
+adding lazy requestHandler: solr.SearchHandler
+created /spell: solr.SearchHandler
+adding lazy requestHandler: solr.SearchHandler
+created /tvrh: solr.SearchHandler
+adding lazy requestHandler: solr.SearchHandler
+created /terms: solr.SearchHandler
+adding lazy requestHandler: solr.SearchHandler
+created /elevate: solr.SearchHandler
+Unable to set the 'reuse-instance' property for the input chain: com.ctc.wstx.stax.WstxInputFactory@5b85d6
+xsltCacheLifetimeSeconds=60
+Unable to set the 'reuse-instance' property for the input chain: com.ctc.wstx.stax.WstxInputFactory@1015bf6
+xsltCacheLifetimeSeconds=60
+Unable to set the 'reuse-instance' property for the input chain: com.ctc.wstx.stax.WstxInputFactory@3c8467
+xsltCacheLifetimeSeconds=60
+solrconfig.xml missing optional admin/gettableFiles
+solrconfig.xml missing optional //bool[@name='facet.sort']
+Reusing cached directory: CachedDir<<refCount=1;path=D:\projects\reports\reports-solr\solr\reports-core\data;done=false>>
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data 0 false
+Reusing cached directory: CachedDir<<refCount=1;path=D:\projects\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Opening Searcher@376421 main
+UpdateHandler init: tlogDir=D:\projects\reports\reports-solr\solr\reports-core\data\tlog, existing tlogs=[tlog.0000000000000000013], next id=14
+New TransactionLog file=D:\projects\reports\reports-solr\solr\reports-core\data\tlog\tlog.0000000000000000013, exists=true, size=22982, openExisting=true
+Hard AutoCommit: if uncommited for 15000ms; 
+Soft AutoCommit: disabled
+Initializing spell checkers
+init: {name=default,field=spell,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+No queryConverter defined, using default converter
+Loading QueryElevation from: D:\projects\reports\reports-solr\solr\reports-core\conf\elevate.xml
+Adding  component:org.apache.solr.handler.component.QueryComponent@165649f
+Adding  component:org.apache.solr.handler.component.FacetComponent@1b14203
+Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@64f299
+Adding  component:org.apache.solr.handler.component.HighlightComponent@1733bd6
+Adding  component:org.apache.solr.handler.component.StatsComponent@5d70c8
+Adding  debug component:org.apache.solr.handler.component.DebugComponent@978ceb
+Adding  component:org.apache.solr.handler.component.QueryComponent@165649f
+Adding  component:org.apache.solr.handler.component.FacetComponent@1b14203
+Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@64f299
+Adding  component:org.apache.solr.handler.component.HighlightComponent@1733bd6
+Adding  component:org.apache.solr.handler.component.StatsComponent@5d70c8
+Adding  debug component:org.apache.solr.handler.component.DebugComponent@978ceb
+Adding  component:org.apache.solr.handler.component.RealTimeGetComponent@1a4cbe5
+Adding  component:org.apache.solr.handler.component.QueryComponent@165649f
+Adding  component:org.apache.solr.handler.component.FacetComponent@1b14203
+Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@64f299
+Adding  component:org.apache.solr.handler.component.HighlightComponent@1733bd6
+Adding  component:org.apache.solr.handler.component.StatsComponent@5d70c8
+Adding  component:org.apache.solr.handler.component.SpellCheckComponent@46348a
+Adding  debug component:org.apache.solr.handler.component.DebugComponent@978ceb
+Commits will be reserved for  10000
+QuerySenderListener sending requests to Searcher@376421 main{StandardDirectoryReader(segments_g:69 _k(4.3):C162)}
+Reusing cached directory: CachedDir<<refCount=1;path=D:\projects\reports\reports-solr\solr\reports-core\data;done=false>>
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data 0 false
+Reusing cached directory: CachedDir<<refCount=1;path=D:\projects\reports\reports-solr\solr\reports-core\data;done=false>>
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data 0 false
+Reusing cached directory: CachedDir<<refCount=2;path=D:\projects\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data\index 1 false
+[reports] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=453 
+QuerySenderListener done.
+Loading spell index for spellchecker: default
+Loading spell index for spellchecker: wordbreak
+[reports] Registered new searcher Searcher@376421 main{StandardDirectoryReader(segments_g:69 _k(4.3):C162)}
+registering core: reports
+user.dir=D:\projects\reports\reports-solr
+SolrDispatchFilter.init() done
+solrconfig.xml requestDispatcher/requestParsers/@multipartUploadLimitInKB=2048000
+solrconfig.xml requestDispatcher/requestParsers/@formdataUploadLimitInKB=2048
+solrconfig.xml requestDispatcher/requestParsers/@enableRemoteStreaming=true
+solrconfig.xml requestDispatcher/@handleSelect=false
+Adding  component:org.apache.solr.handler.component.TermsComponent@1c1fe90
+[reports] webapp=/solr path=/terms params={terms.fl=performer&terms.fl=activity&terms=true&wt=javabin&qt=/terms&terms.raw=false&terms.sort=count&version=2&terms.maxcount=-1} status=0 QTime=16 
+Closing out SolrRequest: {{params(terms.fl=performer&terms.fl=activity&terms=true&wt=javabin&qt=/terms&terms.raw=false&terms.sort=count&version=2&terms.maxcount=-1),defaults(terms=true&distrib=false)}}
+[reports] webapp=/solr path=/terms params={terms.fl=performer&terms.fl=activity&terms=true&wt=javabin&qt=/terms&terms.raw=false&terms.sort=count&version=2&terms.maxcount=-1} status=0 QTime=16 
+Closing out SolrRequest: {{params(terms.fl=performer&terms.fl=activity&terms=true&wt=javabin&qt=/terms&terms.raw=false&terms.sort=count&version=2&terms.maxcount=-1),defaults(terms=true&distrib=false)}}
+[reports] webapp=/solr path=/select params={start=0&q=performer:*acting*+OR+activity:*acting*&wt=javabin&version=2&defType=edismax&rows=10} hits=30 status=0 QTime=829 
+Closing out SolrRequest: {{params(start=0&q=performer:*acting*+OR+activity:*acting*&wt=javabin&version=2&defType=edismax&rows=10),defaults(df=text&echoParams=explicit&rows=10)}}
+Shutting down CoreContainer instance=18649601
+[reports]  CLOSING SolrCore org.apache.solr.core.SolrCore@1274251
+closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+Closing SolrCoreState
+SolrCoreState ref count has reached 0 - closing IndexWriter
+closing IndexWriter with IndexWriterCloser
+Closing tlogtlog{file=D:\projects\reports\reports-solr\solr\reports-core\data\tlog\tlog.0000000000000000013 refcount=0}
+[reports] Closing main searcher on request.
+Closing Searcher@376421 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=1,hits=0,hitratio=0.00,inserts=2,evictions=0,size=2,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+	documentCache{lookups=10,hits=0,hitratio=0.00,inserts=10,evictions=0,size=10,warmupTime=0,cumulative_lookups=10,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=10,cumulative_evictions=0}
+Releasing directory: D:\projects\reports\reports-solr\solr\reports-core\data\index 0 false
+Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+Closing NRTCachingDirectoryFactory - currently tracking: CachedDir<<refCount=0;path=D:\projects\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Closing NRTCachingDirectoryFactory - currently tracking: CachedDir<<refCount=0;path=D:\projects\reports\reports-solr\solr\reports-core\data;done=false>>
+Closing directory when closing factory: D:\projects\reports\reports-solr\solr\reports-core\data\index
+looking to close D:\projects\reports\reports-solr\solr\reports-core\data\index [CachedDir<<refCount=0;path=D:\projects\reports\reports-solr\solr\reports-core\data\index;done=false>>]
+Closing directory: D:\projects\reports\reports-solr\solr\reports-core\data\index
+Closing directory when closing factory: D:\projects\reports\reports-solr\solr\reports-core\data
+looking to close D:\projects\reports\reports-solr\solr\reports-core\data [CachedDir<<refCount=0;path=D:\projects\reports\reports-solr\solr\reports-core\data;done=false>>]
+Closing directory: D:\projects\reports\reports-solr\solr\reports-core\data
+Removing from cache: CachedDir<<refCount=0;path=D:\projects\reports\reports-solr\solr\reports-core\data\index;done=false>>
+Removing from cache: CachedDir<<refCount=0;path=D:\projects\reports\reports-solr\solr\reports-core\data;done=false>>
+Connection manager is shutting down
+Connection manager shut down

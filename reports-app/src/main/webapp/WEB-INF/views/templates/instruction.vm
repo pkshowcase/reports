@@ -1,0 +1,2 @@
+<h3>#springMessage('content.instruction.title')</h3>
+#set($page_title = 'Instructions')
