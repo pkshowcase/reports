@@ -20,7 +20,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.beans.support.PagedListHolder;
-import org.springframework.context.annotation.DependsOn;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -38,7 +37,6 @@ import sp.model.Report;
 import sp.service.ReportService;
 import sp.util.SpHasher;
 import sp.util.SpSortDefinition;
-import sp.util.service.SolrAdministrator;
 
 /**
  * Report controller for synchronous actions
@@ -51,20 +49,20 @@ import sp.util.service.SolrAdministrator;
 public class ReportController {
 
     protected static final Logger logger = LoggerFactory.getLogger(ReportController.class);
-    private static final int PAGERS_INITIAL_CAPACITY = 4;
+    protected static final int PAGERS_INITIAL_CAPACITY = 4;
     /*
      * Spring 3+ way. Previously, used @Value(#{systemProperties.pagination.threshold})
      */
     @Value("${pagination.maxonpager}")
-    private int MAX_ON_PAGER;
+    protected int MAX_ON_PAGER;
     @Value("${pagination.threshold}")
-    private int PAGINATION_THRESHOLD;
-    private int CHECKLIST_INITIAL_CAPACITY = 32;
+    protected int PAGINATION_THRESHOLD;
+    protected int CHECKLIST_INITIAL_CAPACITY = 32;
     @Inject
     private ReportService reportService;
 
     @ModelAttribute("page_key")
-    public String referenceData() {
+    public String populatePageKey() {
         return "title.reports";
     }
 

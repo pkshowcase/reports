@@ -16,6 +16,16 @@ public class HomeControllerTest {
     }
 
     /**
+     * Test reference data assignment controller's method
+     */
+    @Test
+    public void referenceDataTest() {
+        HomeController controller = new HomeController();
+        String result = controller.referenceData();
+        assertEquals("title.home", result);
+    }
+    
+    /**
      * Test of 'home' method, of class HomeController.
      */
     @Test
@@ -23,7 +33,7 @@ public class HomeControllerTest {
         Model model = (Model) new ExtendedModelMap();
         HomeController homeController = new HomeController();
         String viewName = homeController.home(model);
-        assertEquals(model.containsAttribute("view"), true);
+        assertTrue(model.containsAttribute("view"));
         assertEquals("home", model.asMap().get("view"));
         assertEquals("home", viewName);
     }
