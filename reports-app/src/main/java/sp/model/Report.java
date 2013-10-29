@@ -26,7 +26,7 @@ import sp.validation.ValidReport;
 
 /**
  * Report entity
- * 
+ *
  * @author Paul Kulitski
  */
 @Entity
@@ -35,7 +35,7 @@ import sp.validation.ValidReport;
     @NamedQuery(name = "Report.getPerformers", query = "select distinct r.performer from Report r"),
     @NamedQuery(name = "Report.getReportsByPerformer", query = "select r from Report r where r.performer = :performer"),
     @NamedQuery(name = "Report.getReports", query = "select r from Report r where r.performer = :performer and r.startDate >= :startDate and r.endDate <= :endDate"),
-    @NamedQuery(name = "Report.getReportsByPeriod", query = "select r from Report r where r.startDate >= :startDate and r.endDate <= :endDate"),    
+    @NamedQuery(name = "Report.getReportsByPeriod", query = "select r from Report r where r.startDate >= :startDate and r.endDate <= :endDate"),
     @NamedQuery(name = "Report.getReportsByIds", query = "select r from Report r where r.id IN :ids"),
     @NamedQuery(name = "Report.hasReport", query = "select r from Report r where r.id = :id"),
     @NamedQuery(name = "Report.hasReports", query = "select count(r) from Report r where r.id IN :ids"),
@@ -48,25 +48,21 @@ public class Report implements Serializable, ReportSearchable {
 
     @Field(ReportSearchable.ID_FIELD)
     private Long id;
-    
     @NotNull()
-    @Past() 
+    @Past()
     @DateTimeFormat(pattern = "dd MMM yyyy")
     @ReportDate
     @Field(ReportSearchable.START_DATE_FIELD)
     private Date startDate;
-    
     @DateTimeFormat(pattern = "dd MMM yyyy")
     @ReportDate
     @Field(ReportSearchable.END_DATE_FIELD)
-    private Date endDate; 
-    
+    private Date endDate;
     @NotEmpty()
     @Size(min = 1, max = 255)
     @Pattern(regexp = "^(?iu)[a-zа-я][ 0-9a-zа-я-#@%&\\$]{1,255}(?<!-)$")
     @Field(ReportSearchable.PERFORMER_FIELD)
     private String performer;
-    
     @NotEmpty()
     @Size(min = 1, max = 255)
     @Pattern(regexp = "^(?iu)[a-zа-я0-9 #@%&\\$]{1,255}(?<!-)$")
@@ -119,6 +115,17 @@ public class Report implements Serializable, ReportSearchable {
     }
 
     public void setActivity(String activity) {
+        this.activity = activity;
+    }
+
+    public Report() {
+    }
+
+    public Report(Long id, Date startDate, Date endDate, String performer, String activity) {
+        this.id = id;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.performer = performer;
         this.activity = activity;
     }
 

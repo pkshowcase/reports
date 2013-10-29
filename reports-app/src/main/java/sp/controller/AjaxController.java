@@ -235,16 +235,18 @@ public class AjaxController {
         Set<Long> checklist = (Set<Long>) session.getAttribute("checklist");
         if (checklist != null) {
             Long[] check = reportService.hasReports(indexes);
-            if (check.length == indexes.length) {
-                checklist.addAll(Arrays.asList(indexes));
-                return "success";
-            } else if (check.length != 0) {
-                checklist.addAll(Arrays.asList(check));
-                StringBuilder sb = new StringBuilder(check.length * 4);
-                for (Long id : check) {
-                    sb.append(id).append(',');
+            if (check != null) {
+                if (check.length == indexes.length) {
+                    checklist.addAll(Arrays.asList(indexes));
+                    return "success";
+                } else if (check.length != 0) {
+                    checklist.addAll(Arrays.asList(check));
+                    StringBuilder sb = new StringBuilder(check.length * 4);
+                    for (Long id : check) {
+                        sb.append(id).append(',');
+                    }
+                    return sb.toString();
                 }
-                return sb.toString();
             }
         }
         return "";
@@ -292,6 +294,7 @@ public class AjaxController {
             HttpSession session, Model model) {
         PagedListHolder<Report> pager = ((Map<String, PagedListHolder<Report>>) session.getAttribute("pagers")).get(searchId);
         //TODO: synchronized(pager) {..}?
+        System.out.println("PAGER: " + pager);
         if (pager != null) {
             List<Report> list = pager.getSource();
             Report idReport = new Report();

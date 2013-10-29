@@ -152,7 +152,6 @@ public class ReportController {
         } else {
             reports = reportService.getReports(performer, startDate, endDate);
         }
-        logger.info("Reports cardinality: {}", reports.size());
         if (reports.isEmpty()) {
             return "redirect:search/nothing";
         }
@@ -187,38 +186,46 @@ public class ReportController {
             @RequestParam(value = "search_id", required = true) String searchId,
             Model model) {
         boolean reject = false;
-        PagedListHolder<Report> pager = pagers.get(searchId);
-        if (pager == null) {
+        PagedListHolder<Report> pager = null;
+        if (pagers != null) {
+            pager = pagers.get(searchId);
+        } else {
             reject = true;
         }
-        if (page != null) {
-            /*
-             * Page must be: 'next', 'prev', 'page-number'
-             */
-            if (page.equalsIgnoreCase("next")) {
-                pager.nextPage();
-            } else if (page.equalsIgnoreCase("prev")) {
-                pager.previousPage();
-            } else if (page.equalsIgnoreCase("first")) {
-                pager.setPage(0);
-            } else if (page.equalsIgnoreCase("last")) {
-                pager.setPage(pager.getPageCount() - 1);
-            } else {
-                try {
-                    Integer intPage = Integer.valueOf(page);
-                    if ((intPage > 0) && (intPage <= pager.getPageCount())) {
-                        pager.setPage(intPage - 1);
+        if (pager == null) {
+            reject = true;
+        } else {
+            if (page != null) {
+                /*
+                 * Page must be: 'next', 'prev', 'page-number'
+                 */
+                if (page.equalsIgnoreCase("next")) {
+                    pager.nextPage();
+                } else if (page.equalsIgnoreCase("prev")) {
+                    pager.previousPage();
+                } else if (page.equalsIgnoreCase("first")) {
+                    pager.setPage(0);
+                } else if (page.equalsIgnoreCase("last")) {
+                    pager.setPage(pager.getPageCount() - 1);
+                } else {
+                    try {
+                        Integer intPage = Integer.valueOf(page);
+                        if ((intPage > 0) && (intPage <= pager.getPageCount())) {
+                            pager.setPage(intPage - 1);
+                        } else {
+                            reject = true;
+                        }
+                    } catch (NumberFormatException ex) {
+                        logger.warn("Cannot parse page number from request parameter 'page'={}", page);
+                        reject = true;
                     }
-                } catch (NumberFormatException ex) {
-                    logger.warn("Cannot parse page number from request parameter 'page'={}", page);
+                }
+            } else {
+                if (pager.getPageCount() > 0) {
+                    pager.setPage(0);
+                } else {
                     reject = true;
                 }
-            }
-        } else {
-            if (pager.getPageCount() > 0) {
-                pager.setPage(0);
-            } else {
-                reject = true;
             }
         }
         if (reject) {
@@ -261,7 +268,7 @@ public class ReportController {
      * @return view name
      */
     @RequestMapping(value = "/detail", method = RequestMethod.POST)
-    public String setupDetailForm(@RequestParam Long id, Model model) {
+    public String searchDetails(@RequestParam Long id, Model model) {
         if (reportService.hasReport(id)) {
             return "redirect:detail/" + id;
         } else {
@@ -315,6 +322,7 @@ public class ReportController {
     @RequestMapping(value = "add", method = RequestMethod.POST)
     public ModelAndView add(@Valid @ModelAttribute("report") Report report,
             BindingResult result, Model model, HttpServletRequest req, HttpServletResponse res) {
+        System.out.println(report);
         ModelAndView mav = new ModelAndView();
         if (result.hasErrors()) {
             model.addAttribute("view", "add");
@@ -327,6 +335,11 @@ public class ReportController {
         if (req.getRequestURL().indexOf("https") != -1) {
             protocol = "https://";
         }
+        System.out.println(protocol + req.getServerName());
+        System.out.println(":" + req.getServerPort());
+        System.out.println(req.getContextPath() + "/report/detail/");
+        System.out.println(report);
+        System.out.println(report.getId());
         model.addAttribute("uri", protocol + req.getServerName() + ":" + req.getServerPort() + req.getContextPath() + "/report/detail/" + report.getId());
         model.addAttribute("back", req.getRequestURL());
         model.addAttribute("report", report);
@@ -339,5 +352,9 @@ public class ReportController {
     public String realTimeSearch(Model model) {
         model.addAttribute("view", "ajax");
         return "search";
+    }
+
+    public void setReportService(ReportService reportService) {
+        this.reportService = reportService;
     }
 }

@@ -24,7 +24,7 @@ public class HomeControllerTest {
         String result = controller.referenceData();
         assertEquals("title.home", result);
     }
-    
+
     /**
      * Test of 'home' method, of class HomeController.
      */

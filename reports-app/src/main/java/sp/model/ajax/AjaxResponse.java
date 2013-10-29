@@ -115,4 +115,34 @@ public class AjaxResponse<T> implements Serializable {
     public String toString() {
         return "AjaxResponse{" + "status=" + status + ", results=" + results + ", errors=" + errors + '}';
     }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 73 * hash + (this.status != null ? this.status.hashCode() : 0);
+        hash = 73 * hash + (this.results != null ? this.results.hashCode() : 0);
+        hash = 73 * hash + (this.errors != null ? this.errors.hashCode() : 0);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final AjaxResponse<T> other = (AjaxResponse<T>) obj;
+        if ((this.status == null) ? (other.status != null) : !this.status.equals(other.status)) {
+            return false;
+        }
+        if (this.results != other.results && (this.results == null || !this.results.equals(other.results))) {
+            return false;
+        }
+        if (this.errors != other.errors && (this.errors == null || !this.errors.equals(other.errors))) {
+            return false;
+        }
+        return true;
+    }
 }
