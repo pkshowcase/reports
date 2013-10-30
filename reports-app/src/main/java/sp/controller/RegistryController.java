@@ -36,9 +36,9 @@ import sp.util.SpLazyPager;
 public class RegistryController {
 
     @Value("${pagination.maxonpager}")
-    private int MAX_ON_PAGER;
+    int MAX_ON_PAGER;
     @Value("${pagination.threshold}")
-    private int PAGINATION_THRESHOLD;
+    int PAGINATION_THRESHOLD;
     @Inject
     RegistryService registryService;
     protected static final Logger logger = LoggerFactory.getLogger(RegistryController.class);
@@ -75,9 +75,9 @@ public class RegistryController {
         logger.debug("Showing application registry");
 
         List<Register> registers = null;
-        if (pager.getSourceCount() == 0 || newSearch != null) {
+        if (newSearch != null || (pager != null && pager.getSourceCount() == 0)) {
             registers = registryService.getRegisters(0, PAGINATION_THRESHOLD);
-            if (!registers.isEmpty()) {
+            if (registers != null && !registers.isEmpty()) {
                 pager.setPageSize(PAGINATION_THRESHOLD);
                 pager.setSourceCount(registryService.count().intValue());
                 pager.setPage(0);
@@ -88,17 +88,21 @@ public class RegistryController {
                 return "redirect:registry/nothing";
             }
         } else {
-            if (page != null) {
-                boolean correct = pager.setPage(page);
-                if (!correct) {
-                    return "redirect:registry/nothing";
+            if (pager != null) {
+                if (page != null) {
+                    boolean correct = pager.setPage(page);
+                    if (!correct) {
+                        return "redirect:registry/nothing";
+                    }
+                } else {
+                    pager.setPage(0);
                 }
+                registers = registryService
+                        .getRegisters(pager.getPageOffset(), pager.getPageSize());
+                model.addAttribute("registers", registers);
             } else {
-                pager.setPage(0);
+                return "redirect:registry/nothing";
             }
-            registers = registryService
-                    .getRegisters(pager.getPageOffset(), pager.getPageSize());
-            model.addAttribute("registers", registers);
         }
 
         return "registry";

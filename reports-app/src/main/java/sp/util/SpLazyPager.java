@@ -110,7 +110,8 @@ public class SpLazyPager {
     }
 
     public void nextPage() {
-        if (page < (sourceCount / pageSize)) {
+        if (page < (sourceCount / pageSize - 1)) {
+            System.out.println("page" + page + " "  + sourceCount / pageSize);
             page += 1;
         }
     }

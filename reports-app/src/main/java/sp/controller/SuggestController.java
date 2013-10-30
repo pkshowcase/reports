@@ -240,6 +240,7 @@ public class SuggestController {
         }
         return re;
     }
+    
     @Inject
     SuggestIndexSearcher indexSearcher;
 

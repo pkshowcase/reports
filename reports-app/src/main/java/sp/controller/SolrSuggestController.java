@@ -36,7 +36,7 @@ public class SolrSuggestController {
 
     @Inject
     SolrService solrService;
-    private static final int HASH_CLOUD_COUNT = 12;
+    static final int HASH_CLOUD_COUNT = 12;
     protected final static Logger logger = LoggerFactory.getLogger(SolrSuggestController.class);
 
     @ModelAttribute("solrPager")
@@ -156,8 +156,8 @@ public class SolrSuggestController {
             return new PageImpl<Report>(Collections.EMPTY_LIST);
         }
     }
-    private static final int DEFAULT_SUGGEST_LIMIT = 8;
-    private static final int DEFAULT_SEARCH_LIMIT = 10;
+    static final int DEFAULT_SUGGEST_LIMIT = 8;
+    static final int DEFAULT_SEARCH_LIMIT = 10;
 
     @RequestMapping(value = "suggest", method = {RequestMethod.GET, RequestMethod.POST})
     public @ResponseBody

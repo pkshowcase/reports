@@ -334,11 +334,6 @@ public class ReportController {
         if (req.getRequestURL().indexOf("https") != -1) {
             protocol = "https://";
         }
-        System.out.println(protocol + req.getServerName());
-        System.out.println(":" + req.getServerPort());
-        System.out.println(req.getContextPath() + "/report/detail/");
-        System.out.println(report);
-        System.out.println(report.getId());
         model.addAttribute("uri", protocol + req.getServerName() + ":" + req.getServerPort() + req.getContextPath() + "/report/detail/" + report.getId());
         model.addAttribute("back", req.getRequestURL());
         model.addAttribute("report", report);
