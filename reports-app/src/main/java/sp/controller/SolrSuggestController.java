@@ -57,7 +57,6 @@ public class SolrSuggestController {
         try {
             long maxOccurrence = 0;
             for (TermsFieldEntry entry : solrService.getSearchCloud().getContent()) {
-                System.out.println(entry.getKey() + " : " + entry.getValue() + " : " + entry.getValueCount());
 
                 if (entry.getValueCount() > maxOccurrence) {
                     maxOccurrence = entry.getValueCount();

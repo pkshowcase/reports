@@ -322,7 +322,6 @@ public class ReportController {
     @RequestMapping(value = "add", method = RequestMethod.POST)
     public ModelAndView add(@Valid @ModelAttribute("report") Report report,
             BindingResult result, Model model, HttpServletRequest req, HttpServletResponse res) {
-        System.out.println(report);
         ModelAndView mav = new ModelAndView();
         if (result.hasErrors()) {
             model.addAttribute("view", "add");

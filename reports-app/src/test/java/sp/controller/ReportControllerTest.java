@@ -257,7 +257,6 @@ public class ReportControllerTest {
         assertEquals(successViewResult, "list-paged");
         pager = (PagedListHolder<Report>) model.get("pager");
         assertNotNull(pager);
-        System.out.println(pager.getPageCount());
         assertEquals(1, pager.getPage());
         /*
          * test 'prev' page.
@@ -421,7 +420,6 @@ public class ReportControllerTest {
     public void addSuccessTest() {
         Report expReport = new Report(1L, new Date(), new Date(),
                 "Will Smith", "showoffing");
-        System.out.println(expReport);
         BindingResult bindResult = mock(BindingResult.class);
         HttpServletRequest req = mock(HttpServletRequest.class);
         HttpServletResponse res = mock(HttpServletResponse.class);

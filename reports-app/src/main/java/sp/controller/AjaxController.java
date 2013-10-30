@@ -294,7 +294,6 @@ public class AjaxController {
             HttpSession session, Model model) {
         PagedListHolder<Report> pager = ((Map<String, PagedListHolder<Report>>) session.getAttribute("pagers")).get(searchId);
         //TODO: synchronized(pager) {..}?
-        System.out.println("PAGER: " + pager);
         if (pager != null) {
             List<Report> list = pager.getSource();
             Report idReport = new Report();
